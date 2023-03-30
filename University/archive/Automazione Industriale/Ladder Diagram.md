@@ -46,3 +46,16 @@ Il segnale di reset(RES) riporta a 0 il contatore Cx
 ![[Pasted image 20230317185206.png]]
 ### Funzioni e Blocchi Funzione
 Istruzioni complesse simili alle funzioni di un linguaggio di programmazione di alto livello vengono racchiuse in blocchi collegati con un piolo e il loro uso è immediato
+# Traduzioni Schema SFC in Ladder
+Si segue l'algoritmo di evoluzione senza ricerca di stabilità
+Ad ogni passo si associa un bit di memoria rappresentante lo stato del passo
+Ad ogni transizione si associa un bit di memoria rappresentante la superabilità della transizione
+Scomposizione programma in quattro sezioni:  
+1. Sezione di inizializzazione  
+2. Sezione di esecuzione delle azioni  
+3. Sezione di valutazione delle transizioni  
+4. Sezione di aggiornamento dello stato
+Non permette una buona rappresentazione del superamento di più transizioni contemporaneamente
+Per eseguire più schemi SFC in Ladder basta aggiungere gli schemi tradotti dei relativi schemi SFC uno sotto l'altro(Ladder è intrinsecamente parallelo)
+Ladder è migliore per algoritmi molto semplici
+SFC più adatti per programmi con sequenze/parallelismi e operazioni algebriche

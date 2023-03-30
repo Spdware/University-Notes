@@ -1,5 +1,7 @@
 [
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-image-uploader",
+  "obsidian-imgur-plugin"
 ]

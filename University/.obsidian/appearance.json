@@ -6,5 +6,6 @@
   "monospaceFontFamily": "Calibri",
   "cssTheme": "Red Graphite",
   "nativeMenus": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 16
 }

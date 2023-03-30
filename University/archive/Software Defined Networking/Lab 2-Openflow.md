@@ -1,3 +1,7 @@
+SDN Index: [[Software Defined Networking]]
+Index: [[Index]]
+
+---
 ### Funzionamento del controllore
 Il controllore si interfaccia con gli switch ed implementa il protocollo Openflow e implementa anche degli API
 (Prima iterazione)Il piano dati è dotato di un parser leggente i pacchetti in arrivo dove individua gli header e gli indirizza tramite regole già defnite e non programmabili. Definisce un "listone" di campi

@@ -1,0 +1,8 @@
+{
+  "apiEndpoint": "https://api.imgur.com/3/image",
+  "uploadHeader": "{\"Authorization\": \"Client-ID {{clientId}}\"}",
+  "uploadBody": "{\n\t\"data\": {\n\t\t\"id\": \"orunSTu\",\n\t\t\"title\": null,\n\t\t\"description\": null,\n\t\t\"datetime\": 1495556889,\n\t\t\"type\": \"image/gif\",\n\t\t\"animated\": false,\n\t\t\"width\": 1,\n\t\t\"height\": 1,\n\t\t\"size\": 42,\n\t\t\"views\": 0,\n\t\t\"bandwidth\": 0,\n\t\t\"vote\": null,\n\t\t\"favorite\": false,\n\t\t\"nsfw\": null,\n\t\t\"section\": null,\n\t\t\"account_url\": null,\n\t\t\"account_id\": 0,\n\t\t\"is_ad\": false,\n\t\t\"in_most_viral\": false,\n\t\t\"tags\": [],\n\t\t\"ad_type\": 0,\n\t\t\"ad_url\": \"\",\n\t\t\"in_gallery\": false,\n\t\t\"deletehash\": \"x70po4w7BVvSUzZ\",\n\t\t\"name\": \"\",\n\t\t\"link\": \"http://i.imgur.com/orunSTu.gif\"\n\t},\n\t\"success\": true,\n\t\"status\": 200\n}",
+  "imageUrlPath": "data.link",
+  "maxWidth": 4096,
+  "enableResize": false
+}

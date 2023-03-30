@@ -9,5 +9,6 @@
   "spellcheck": true,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "showUnsupportedFiles": false
 }
