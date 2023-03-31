@@ -67,8 +67,10 @@ Come dedurre le proprietà:
 Convenzioni:
 - Il grafo è una serie di nodi collegati tra loro. Essendo i nodi di due tipi sono richieste due matrici definite Matrici di Ingresso/Uscita(I/O) in cui le righe rappresentano i posti mentre le colonne le transizioni e il contenuto della cella rappresenta il peso dell'arco(=0 se non esiste il flusso tra posto e transizione)
 - Matrice di Input tiene conto dei flussi che collegano un posto a una transizione
+
 ![|100](https://i.imgur.com/JrNZUqD.png)
 - Matrice di Output tiene conto dei flussi che collegano una transizione a un posto
+
 ![|100](https://i.imgur.com/FugVRoV.png)
 
 **Matrice di Incidenza**

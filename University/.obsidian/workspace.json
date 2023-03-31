@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
+                "file": "archive/Automazione Industriale/PLC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b0ce3223039217c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "archive/Economia/14-Valutazione Investimenti.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
+                "file": "archive/Economia/14-Valutazione Investimenti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
+                "file": "archive/Economia/14-Valutazione Investimenti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md"
+                "file": "archive/Economia/14-Valutazione Investimenti.md"
               }
             }
           }
@@ -143,17 +156,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2c85fd7a4fc3691f",
+  "active": "7b0ce3223039217c",
   "lastOpenFiles": [
+    "assets/Pasted image 20230331134159.png",
+    "assets/Pasted image 20230331133448.png",
+    "archive/Automazione Industriale/Ladder Diagram.md",
+    "archive/Economia/14-Valutazione Investimenti.md",
+    "archive/Automazione Industriale/PLC.md",
+    "archive/Automazione Industriale/SFC.md",
+    "archive/Automazione Industriale/Reti di Petri.md",
     "assets/Pasted image 20230330114256.png",
     "assets/Pasted image 20230330114148.png",
     "assets/Pasted image 20230330114111.png",
     "fw.241u5.md",
-    "archive/Automazione Industriale/Reti di Petri.md",
     "assets/Pasted image 20230330113321.png",
     "archive/Software Defined Networking/Lab 4-Switching.md",
     "archive/Software Defined Networking/Lab 3-Programmazione Switch.md",
@@ -168,12 +186,7 @@
     "archive/Software Defined Networking/Lab 2-Openflow.md",
     "index/index_folder/Software Defined Networking.md",
     "index/index_folder/Automazione Industriale.md",
-    "archive/Automazione Industriale/Ladder Diagram.md",
-    "assets/Pasted image 20230320184601.png",
-    "assets/Pasted image 20230320184537.png",
-    "archive/Automazione Industriale/SFC.md",
     "index/Index.md",
-    "archive/Automazione Industriale/PLC.md",
     "templates/Notes.md",
     "index/index_folder",
     "index",

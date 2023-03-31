@@ -2,7 +2,6 @@ Pagina Iniziale: [[Automazione Industriale]]
 Indice: [[Index]]
 
 ---
-
 Sono apparecchiature elettroniche programmabili per il controllo di macchine e processi industriali
 Sostituirono la logica cablata e i quadri di controllo a relè(riduzione di tempi e costi)
 Resistono agli ambienti industriali, non presentano dischi mobili, sono dotati di Watch-Dog(per istruzioni/programmi), SO molto affidabile e ad elevata diagnostica sia su HW che SW, compatto, integrabile con altri componenti di controllo
