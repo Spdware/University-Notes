@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c85fd7a4fc3691f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archive/Automazione Industriale/PLC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7b0ce3223039217c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archive/Economia/14-Valutazione Investimenti.md",
+                "file": "archive/Automazione Industriale/Reti di Petri.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/Economia/14-Valutazione Investimenti.md",
+                "file": "archive/Automazione Industriale/Reti di Petri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/Economia/14-Valutazione Investimenti.md",
+                "file": "archive/Automazione Industriale/Reti di Petri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archive/Economia/14-Valutazione Investimenti.md"
+                "file": "archive/Automazione Industriale/Reti di Petri.md"
               }
             }
           }
@@ -161,28 +148,29 @@
   },
   "active": "7b0ce3223039217c",
   "lastOpenFiles": [
+    "assets/Pasted image 20230406105710.png",
+    "archive/Software Defined Networking/Lab 5-Classificazione e Modifica pacchetti.md",
+    "archive/Automazione Industriale/Reti di Petri.md",
+    "archive/Economia/14 - Valutazione Investimenti.md",
+    "assets/Pasted image 20230403105249.png",
+    "assets/Pasted image 20230403105006.png",
+    "fw.241u5.md",
+    "assets/Pasted image 20230403101744.png",
+    "assets/Pasted image 20230403094900.png",
+    "assets/Pasted image 20230403094753.png",
+    "archive/Economia/12 - Rendiconto Finanziario.md",
+    "archive/Economia/13 - Analisi di Bilancio - Indici Sintetici.md",
     "assets/Pasted image 20230331134159.png",
     "assets/Pasted image 20230331133448.png",
     "archive/Automazione Industriale/Ladder Diagram.md",
-    "archive/Economia/14-Valutazione Investimenti.md",
     "archive/Automazione Industriale/PLC.md",
     "archive/Automazione Industriale/SFC.md",
-    "archive/Automazione Industriale/Reti di Petri.md",
     "assets/Pasted image 20230330114256.png",
     "assets/Pasted image 20230330114148.png",
     "assets/Pasted image 20230330114111.png",
-    "fw.241u5.md",
-    "assets/Pasted image 20230330113321.png",
     "archive/Software Defined Networking/Lab 4-Switching.md",
     "archive/Software Defined Networking/Lab 3-Programmazione Switch.md",
-    "assets/Pasted image 20230329093859.png",
-    "archive/Economia/13-Analisi di Bilancio - Indici Sintetici.md",
-    "archive/Economia/12-Rendiconto Finanziario.md",
-    "assets/Pasted image 20230327101531.png",
-    "assets/Pasted image 20230327094811.png",
     "index/index_folder/Economia.md",
-    "assets/Pasted image 20230324120211.png",
-    "assets/Pasted image 20230324114206.png",
     "archive/Software Defined Networking/Lab 2-Openflow.md",
     "index/index_folder/Software Defined Networking.md",
     "index/index_folder/Automazione Industriale.md",

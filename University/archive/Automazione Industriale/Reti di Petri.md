@@ -1,15 +1,15 @@
 Sono costituite da un grafo detto Bipartito poichè possiede due tipi di nodi:
 - Posto: l'insieme dei posti si dice P={p1,p2,...,pn}
 - Transizione: insieme delle transizioni si dice T={t1,t2,...,tn}
-Relazioni che collegano gli stati sono detti **FLUSSO** e $F\subseteq =P \times T \text{ }\cup\text{ }T\times P$
-Definizione di Rete di Petri: RP=(P,T,F,M,W) con M marcatura(M:P$\rightarrow$N) e  P Peso(P:F$\rightarrow$N-0)
+Relazioni che collegano gli stati sono detti **FLUSSO** e  $F\subseteq =P \times T \text{ }\cup\text{ }T\times P$
+Definizione di Rete di Petri: RP=(P,T,F,M,W) con M marcatura(M:P $\rightarrow$ N) e  P Peso(P:F $\rightarrow$ N-0)
 Conviene avere un operatore per riferirsi ai nodi a Monte/Valle(Preset/Postset)
 PRESET(x)=${\{y\in P\times T|(y,x)\in F}\}=\dot{}$x
 POSTSET(x)=x$\dot{}$=$\{y\in P\times T|(x,y)\in F\}$
 # Regole di Evoluzione
 - Transizione Abilitata: $\forall p\in \dot{}t,M(p)\geq W(p,t)$
 - (Se abilitata) t può scattare:
-| | |
+|  |  |
 |-----|------|
 |M(p)=M'(p)|altrove|
 |M'(p)=M(p) - W(p,t)|$p\in \dot{}t- t\text{ }\dot{}$|
@@ -81,3 +81,59 @@ Un calcolo alternativo e più sicuro per il calcolo della matrice di Incidenza c
 2. Aggiungo i gettoni a valle della transizione
 3. Ignoro i posti non raggiungibili
 Questo metodo è utilizzabile sia per le Reti di Petri Pure che non anche se per quest'ultime non ha molto senso
+##### Calcolo della marcatura a partire dalle matrici di Input/Output
+La nuova marcatura dovuta allo scatto di una transizione $t_j$ può essere calcolata partendo dalla marcatura attuale e andando a sommarci la colonna relativa alla transizione della matrice di output $O_j$ e a sottrarre la colonna relativa alla transizione della matrice di input $I_j$ :
+$$\begin{cases}
+M^*=M+O_j-I_j\\  
+M\ge I_j    
+\end{cases}$$
+Ora possiamo notare che $O_j - I_j$ corrisponde alla colonna $C_j$ relativa alla transizione della matrice di incidenza:
+$$\begin{cases}
+M^*=M+C_j\\  
+M\ge I_j    
+\end{cases}$$
+Per estrarre facilmente la colonna relativa alla transizione posso moltiplicare la matrice in considerazione con un vettore colonna della stessa dimensione delle righe della matrice ed avente 1 solo nella posizione della colonna che voglio ottenere. 
+##### Equazione di stato delle Reti o Equazione fondamentale delle Reti
+$$M^*=M+C s$$
+
+Con s vettore colonna di m elementi(transizioni in considerazione, tutti $\ge$ 0) detto di Scatto o delle Occorrenze. Possiede la proprietà transitiva sullo svolgimento delle occorrenze, cioè non tiene conto dell'ordine dello scatto delle occorrenze. Quest'ultima proprietà comporta che il vettore s indica un insieme di sequenze fattibili ma non è garantita la loro correttezza(Non ne è assicurata l'esecuzione).
+# Analisi formale della Rete
+Sono presenti quattro strutture fondamentali legate alle caratteristiche statiche della rete:
+- P-invarianti(Vettori colonna)
+- T-invarianti(Vettori colonna)
+- Trappole(Insiemi di posti) 
+- Sifoni(Insiemi di posti)
+Comportano un'analisi simile a quella fatta con le proprietà di Reversibilità, Limitatezza e Vivezza, ma meno approfondita
+### P-Invarianti
+Sono gli invarianti di tipo posto e corrispondono a insiemi di posti per cui la somma pesata dei gettoni contenuti rimane costante per tutte le marcature raggiungibili dalla rete. Definiti come vettore colonna di numeri interi con stessa dimensione del vettore marcatura e i cui coefficienti sono i pesi opportuni per la somma pesata(Devono essere positivi o nulli altrimenti non permetterebbero di limitare la rete).
+$$\begin{cases}
+x'M=x'M_0\\  
+\forall M\in[M_0>   
+\end{cases}$$
+Corrispondono anche al trovare una combinazione lineare delle marcature di un insieme di posti per cui risulti un numero costante(Il P-invariante sarà l'insieme dei coefficienti della combinazione)
+Sostituendo l'equazione di stato delle reti nella prima equazione possiamo ottenere che i P-invarianti possono essere trovati come soluzione di $x'C=0$ oppure $C'x=0$, $\forall s\ne 0$
+I P-invarianti "simulano" la proprietà di limitatezza. Per limitare una rete mi basta trovare il P-invariante che copre tutti i posti della rete  oppure l'insieme dei P-invarianti che coprono l'intera rete. 
+**P-invarianti particolari:**
+- x'=\[0,....,0\]  è una soluzione valida però se sostituito in x'M=cost non permetterebbe di trovare soluzioni e dunque non è un P-invarante
+- $x_A$ è un P-invariante e dunque $x_A'C=0$ , $2x_A$ è un P-invariante a sua volta($C'(2x_A)=2C'x_A=2*0=0$). Dunque una volta trovato un P-invariante ne ho trovati infiniti
+- $x_A,x_B$  P-invarianti segue che un $x_C=x_A+x_B$ è un P-invariante e $C'x_C=C'(x_A+X_B)=C'x_A+C'x_B=0+0=0$
+Dunque l'equazione c'x=0 può avere solo due soluzioni:
+- 0 P-invarianti
+- $\infty$ P-invarianti $\Rightarrow$ Voglio rappresentarne una lista finita
+##### Supporto di un vettore
+Insieme dei posti del P-invariante in cui l'elemento non è nullo, si indica con ||x||(Ex: ||x||={ $p_1,p_2,p_3$ })
+##### P-invariante a supporto minimo
+P-invariante il cui supporto non contiene quello di nessun altro P-invariante della rete
+##### P-invariante canonico
+P-invariante in cui il MCD dei suoi elementi non nulli è pari a 1
+Ex: $x_A=[0 ,1,  0,  0]$
+##### Generatore di P-invarianti
+Più piccolo insieme di P-invarianti tale che ogni altro P-invariante della rete sia ottenibile da una combinazione lineare di questi P-invarianti. Gli elementi dell'insieme generatore sono detti P-invarianti minimi(Sono canonici o a supporto minimo). L'insieme generatore dei P-invarianti è finito e unico. 
+##### Rete coperta da P-invarianti
+Rete in cui tutti i posti appartengono al supporto di almeno un P-invariante. Per determinare facilmente se un insieme di P-invarianti copre rete basta calcolarsi il vettore somma dei P-invarianti e controllare che non ci siano elementi pari a zero.
+Una rete coperta da P-invarianti è sempre limitata, ma non vale il viceversa, ovvero una rete limitata non è detto che sia anche conservativa
+![|450](https://i.imgur.com/PzlZKed.png)
+
+##### Rete conservativa
+Rete coperta da soli P-invarianti non negativi:
+$$\forall p\in P,\exists \text{P-invariante x | }p\in ||x||\text{ e }x(p)>0$$
