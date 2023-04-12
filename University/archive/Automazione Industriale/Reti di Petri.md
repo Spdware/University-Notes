@@ -137,3 +137,18 @@ Una rete coperta da P-invarianti è sempre limitata, ma non vale il viceversa, o
 ##### Rete conservativa
 Rete coperta da soli P-invarianti non negativi:
 $$\forall p\in P,\exists \text{P-invariante x | }p\in ||x||\text{ e }x(p)>0$$
+
+##### Calcolo dei P-Invarianti minimi
+Calcolati attraverso un algoritmo:
+1. A:=C, Y:= In(Matrice identità di grado n), P:=[Y A] 
+2. for i:=1 to m(numero transizioni della rete) do:
+	1. Aggiungi a P tutte le righe che sono combinazioni lineari a coefficienti positivi di coppie di righe di P e che annullano la i-esima colonna della parte A della matrice P
+	2. Elimina da P le righe in cui la colonna i-esima della parte A della matrice P è non nulla
+ 3. Le righe della parte Y della matrice P sono P-Invarianti positivi della rete. Tra essi sono presenti i P-Invarianti minimi
+### T-Invarianti
+Si definiscono T-invarianti di una rete N un vettore colonna y di dimensione |T| soluzione della seguente equazione: $Cy=0$
+Dall'equazione di stato si deduce immediatamente che se y è un vettore delle occorrenze coincidente con un T-invariante allora: $M=M_0+Cy=M_0$
+La presenza di un T-invariante non implica che sia davvero possibile ritornare alla marcatura iniziale poichè potrebbe non esistere alcuna sequenza di scatti ammissibile tale che il relativo vettore delle occorrenze sia proprio il nostro T-invariante. Un T-invariante implica solamente che se si fanno scattare le tranzizioni della rete un numero di volte pari a quello indicato in y allora la rete potrebbe tornare alla posizione iniziale. La proprietà di Reversibilità implica l'esistenza di uno o più T-invarianti.
+
+
+
