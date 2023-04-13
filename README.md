@@ -4,3 +4,4 @@ Currently notes avaible:
 - Automazione Industriale
 - Economia
 - Software Defined Networking Laboratories
+- Economia
