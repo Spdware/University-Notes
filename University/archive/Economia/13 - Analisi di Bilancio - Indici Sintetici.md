@@ -13,6 +13,7 @@ Parliamo di indicatori assoluti(valore in euro) e relativi(valore in una frazion
 ## Indici Reddituali
 Misurano la profittualità dell'impresa
 L'indicatore principale è il ROE. Può essere scomposto in vari indici
+
 ![[Pasted image 20230327094811.png]]
 **Return On Equity(ROE)**
 Capacità dell'impresa di generare profitto per i suoi azionisti
@@ -24,6 +25,7 @@ Indicatore della redditività della gestione operativa
 Misura la capacità dell’azienda di generare profitti nell’attività di trasformazione degli input in output
 **Return On Debt(ROD)**
 $$ROD= r = \frac{|OneriFinanziari|}{DebitoFinanziario}$$
+
 Costo medio del capitale di debito
 Indica l’onere percentuale medio che l’impresa paga per reperire capitali presso fonti di finanziamento esterne
 Possiamo utilizzare sia solo i debiti finanziari oppure il totale delle passività
@@ -32,10 +34,12 @@ Non c'è un' unico modo per il calcolo degli indicatori dunque l'impresa può de
 Deve essere sempre interpretato con il Rapporto di leva
 **Rapporto di Leva(D/E)**
 $$D/E= \frac{Debito}{PatrimonioNetto}$$
+
 Rappresenta come sono sbilanciato tra le fonti di bilanciamento
 ##### Formula della leva finanziaria(Indica come è composto il ROE)
 - Semplificata: ROE = ROI + D/E * (ROI – ROD), assumo di non avere tasse e di non avere capitale per gestione straordinaria
 - In presenza di tasse: ROE = (1-t) * (ROI + D/E * (ROI – ROD)), assumo di non avere gestione straordinaria, ma (1-t) rappresenta l'onere verso lo stato
+- 
 ![[Pasted image 20230327101531.png]]
 Partiamo da una ordinata all'origine poiché quando D/E si annulla rimane solo il ROI, per il resto la formula assume andamento rettilineo
 Se ROI - ROD > 0 la retta ha andamento crescente(Effetto Leva positivo)

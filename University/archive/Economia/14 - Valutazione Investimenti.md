@@ -1,4 +1,5 @@
 Index:[[Index]]
+
 Economia:[[Economia]]
 
 ---
@@ -18,7 +19,8 @@ Fondo di investimento(Ente che gestisce valore per la compravendita di azioni) v
 - Remunerazione futura delle risorse monetarie inizialmente investite(recupero dell'investimento) e ritorno sulla somma investita (rendimento dell'investimento): tramite alcune metodologie capiremo quanto tempo servirà per recuperare l'investimento e poi avere un ricavo
 - Risultati incerti: analisi del rischio(ogni investimento non è totalmente sicuro)
 - Decisione non reversibile: non posso tornare indietro su un investimento
-![](https://i.imgur.com/IxrEhJa.png)
+![|450](https://i.imgur.com/IxrEhJa.png)
+
 ### Tipologie di investimento
 1.  Attività reali(materiali o immateriali) volte alla produzione di beni e servizi
 	- Espansione
@@ -27,13 +29,14 @@ Fondo di investimento(Ente che gestisce valore per la compravendita di azioni) v
 	- Adozione di una nuova tecnologia
 	- Introduzione di nuovi prodotti/servizi
 	- Innovazione e R&D
-1. Attività finanziarie: detenzioni di titoli
-	 -Acquisto di partecipazione
+2. Attività finanziarie: detenzioni di titoli
+	- Acquisto di partecipazione
 ### Valutazione di investimento
 Verifica dell'impatto che un determinato investimento ha sulla struttura adottante (impresa, ma anche individuo o ente pubblico): devo valutare i pro e i contro di ogni acquisto/spesa che faccio
 La valutazione ha come obiettivo quello di generare informazioni sufficienti per poter allocare le risorse sia ai soli progetti che generano risorse che quelli che generano maggior valore(Considereremo solo le risorse che vanno ad essere comprese in un singolo progetto)
 ##### Fasi dell'analisi:
-![](https://i.imgur.com/31OP7tT.png)
+![|450](https://i.imgur.com/31OP7tT.png)
+
 Non mettere altre risorse oltre a quelle comprese nell'analisi, utile essere precisi e tenere il lavoro pulito
 ### Situazioni tipo
 - Investimenti non obbligati: casi in cui l'impresa può o meno realizzare l'investimento(Confronto tra l'investimento e il non fare niente(Caso base)) Segue una logica differenziale
@@ -58,8 +61,10 @@ L'EBIT permette di capire se la gestione di un'azienda è efficiente e se ha una
 - Attualizzazione: riportare a tempo zero dei flussi di denaro
 - Capitalizzazione: permette di capire il capitale in un certo anno
 Esempio:
+
 ![|350](https://i.imgur.com/YmVzMDx.png)
 ![|350](https://i.imgur.com/N77P0BJ.png)
+
 Il valore finale mi restituisce la somma finale che otterrò dopo l'investimento
 Metodo con cui si capitalizza: $M =S(1+i)^N$
 Attualizzazione: $S=\frac{M}{(1+i)^N}$
@@ -83,6 +88,7 @@ Entrano nella valutazione anche eventuali costi/benefici indiretti, l’impatto 
 - Costi eliminati grazie all’investimento → Ricavi differenziali 
 - Riduzione dei ricavi per altri prodotti → Costi differenziali
 ![|350](https://i.imgur.com/0wBSEog.png)
+
 ##### Stima dei NCF
 - Parto dal Conto Economico
 - Valuto i flussi Incrementali: calcolo i flussi rispetto al caso base
@@ -94,12 +100,18 @@ Entrano nella valutazione anche eventuali costi/benefici indiretti, l’impatto 
 Permette di assorbire i vari livelli di rischio
 La logica con cui analizziamo i flussi può essere di capitale proprio/di altri
 - Logica capitale proprio: tutto il tasso è legato a me(k = S)
-- Logica capitale investito: devo capire la parte di tasso legata ai vari finanziatori:$k = s*\frac{CapitaleProprio}{CapitaleDebito+CapitaleProprio}+i*\frac{CapitaleDebito}{CapitaleDebito+CapitaleProprio}$
+- Logica capitale investito: devo capire la parte di tasso legata ai vari finanziatori:
+$$k = s*\frac{CapitaleProprio}{CapitaleDebito+CapitaleProprio}+i*\frac{CapitaleDebito}{CapitaleDebito+CapitaleProprio}$$
+
 ##### Criteri DCF: Internal Rate of Return/Tasso Interno di Rendimento
 Tasso di attualizzazione che rende l'NVP uguale a zero: $\sum_{t=0}^T\frac{NCF(t)}{(1+IRR)^t}=0$
+
 ![|350](https://i.imgur.com/L9UqcCU.png)
+
 - Criterio di accettazione: IRR$\ge$k 
 - Criterio di ordinamento: preferisco A a B se $IRR_A\ge IRR_B$
 Calcolare l'IRR significa risolvere un polinomio di grado T(orizzonte temporale considerato), non sempre è possibile
+
 ![|350](https://i.imgur.com/Uv7SiQZ.png)
+
 Devo avere una struttura iniziale di esborso, avere forti ricavi nei primi anni e poi posso avere anche ricavi bassi(Permette di rientrare prima nell'investimento e permette una stabilità del flusso di cassa)

@@ -18,6 +18,7 @@ L’offerta di mercato dipende:
 ### Costruzione della curva di offerta individuale
 Quantità ottimale di produzione del bene x al prezzo p: quantità di q che consente all’impresa che produce x di massimizzare il profitto (= ricavi – costi)
 $Max\pi=pq-CT(q)$
+
 ![|400](https://i.imgur.com/aXqlZED.png)
 
 CM(q) è il costo marginale, la variazione dei costi di produzione dovuta alla variazione della quantità prodotta
