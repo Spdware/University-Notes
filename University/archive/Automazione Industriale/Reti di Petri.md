@@ -18,7 +18,7 @@ POSTSET(x)=x$\dot{}$=$\{y\in P\times T|(x,y)\in F\}$
 - Può scattare una sola transizione alla volta(Eventi non accadono insieme)
 - Scelgo la transizione da far scattare casualmente(Algoritmo Token Player)
 
-![Imgur|400](https://i.imgur.com/Uqyniip.png)
+![Imgur|350](https://i.imgur.com/Uqyniip.png)
 ![Imgur](https://i.imgur.com/q9E9lC3.png)
 
 # Come modellare un sistema da una Rete di Petri
@@ -104,6 +104,7 @@ Sono presenti quattro strutture fondamentali legate alle caratteristiche statich
 - Trappole(Insiemi di posti) 
 - Sifoni(Insiemi di posti)
 Comportano un'analisi simile a quella fatta con le proprietà di Reversibilità, Limitatezza e Vivezza, ma meno approfondita
+
 ### P-Invarianti
 Sono gli invarianti di tipo posto e corrispondono a insiemi di posti per cui la somma pesata dei gettoni contenuti rimane costante per tutte le marcature raggiungibili dalla rete. Definiti come vettore colonna di numeri interi con stessa dimensione del vettore marcatura e i cui coefficienti sono i pesi opportuni per la somma pesata(Devono essere positivi o nulli altrimenti non permetterebbero di limitare la rete).
 $$\begin{cases}
@@ -145,10 +146,46 @@ Calcolati attraverso un algoritmo:
 	1. Aggiungi a P tutte le righe che sono combinazioni lineari a coefficienti positivi di coppie di righe di P e che annullano la i-esima colonna della parte A della matrice P
 	2. Elimina da P le righe in cui la colonna i-esima della parte A della matrice P è non nulla
  3. Le righe della parte Y della matrice P sono P-Invarianti positivi della rete. Tra essi sono presenti i P-Invarianti minimi
+
 ### T-Invarianti
 Si definiscono T-invarianti di una rete N un vettore colonna y di dimensione |T| soluzione della seguente equazione: $Cy=0$
 Dall'equazione di stato si deduce immediatamente che se y è un vettore delle occorrenze coincidente con un T-invariante allora: $M=M_0+Cy=M_0$
 La presenza di un T-invariante non implica che sia davvero possibile ritornare alla marcatura iniziale poichè potrebbe non esistere alcuna sequenza di scatti ammissibile tale che il relativo vettore delle occorrenze sia proprio il nostro T-invariante. Un T-invariante implica solamente che se si fanno scattare le tranzizioni della rete un numero di volte pari a quello indicato in y allora la rete potrebbe tornare alla posizione iniziale. La proprietà di Reversibilità implica l'esistenza di uno o più T-invarianti.
 
+### Sifoni
+Un insieme di posti è un sifone se e solo se $^\circ S⊆ S^\circ$. Dalla definizione se ne deduce che tutte le transizioni di ingresso per un sifone sono anche transizioni di uscita.
+Per un sifone possono esistere delle transizioni che sono solo in uscita e che quindi causano la perdita di gettoni. L'unione di sifoni è a sua volta un sifone.
 
+![](https://i.imgur.com/amGU1dl.png)
+
+**Sifone minimo**
+Sifone S tale per cui non esistono altri sifoni S' tali che $S'\subset S$
+**Sifone di base**
+Sifone che non può essere ottenuto tramite l'unione di altri sifoni
+**Sifoni non marcati**
+Sifone privo di gettoni in una marcatura M e perciò privo di gettoni in ogni marcatura raggiungibile $M'\lbrack M>$
+In presenza di un sifone smarcato la rete con S non è viva
+**Calcolo dei sifoni**
+Useremo un semplice algoritmo:
+Si consideri una rete con matrice di ingresso I e matrice di uscita O
+1. Si costruisce una rete con matrice di uscita O e matrice di ingresso I' nel seguente modo: per ogni transizione t della rete il peso degli archi entranti in t e uscenti dai posti $\in ^\circ t$ si calcola con: $I'(p,t)=k*I(p,t)$ con k somma dei pesi degli archi uscenti da t, definiamo $C^*$ la nuova matrice di incidenza
+2. Si risolve la disequazione $x'C^*\leq 0$
+3. Il supporto S=||x||, con $x\geq 0$ è un sifone della rete originale
+
+### Trappole
+Un insieme di posti S è una trappola se e solo se $S^\circ \subseteq ^\circ S$
+Tutte le transizioni in uscita sono anche in ingresso.
+Esistono transizioni solo in ingresso alla trappola che sono responsabili dell'aumento dei gettoni.
+L'unione di trappole è a sua volta una trappola
+
+![](https://i.imgur.com/iDnB70G.png)
+
+**Trappole marcate**
+Se S è una trappola marcata nella marcatura M essa rimane marcata in tutte le marcature $M'\in\lbrack M>$ 
+
+### Sifoni, Trappole e P-Invarianti
+Il supporto di un P-invariante con elementi non negativi è un sifone e una trappola.
+### Sifoni, Trappole e Vivezza
+Se ogni sifone contiene una trappola marcata in una marcatura M allora non esiste in $\lbrack M>$ (Insieme delle marcature raggiungibili) una marcatura morta. Se infatti esistesse una tale marcatura M' i posti senza gettoni costituirebbero un sifone marcato contraddicendo l'ipotesi.
+Notiamo che non è assolutamente detto che una rete in cui ogni sifone contiene una trappola narcata sia viva.
 
