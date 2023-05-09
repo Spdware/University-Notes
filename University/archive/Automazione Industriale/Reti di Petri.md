@@ -19,7 +19,7 @@ POSTSET(x)=x$\dot{}$=$\{y\in P\times T|(x,y)\in F\}$
 - Scelgo la transizione da far scattare casualmente(Algoritmo Token Player)
 
 ![Imgur|350](https://i.imgur.com/Uqyniip.png)
-![Imgur](https://i.imgur.com/q9E9lC3.png)
+![|400](https://i.imgur.com/q9E9lC3.png)
 
 # Come modellare un sistema da una Rete di Petri
 L'insieme dei posti/gettoni nei posti si associa al concetto di stato(Distribuzioni dei token in uno stato)
@@ -46,6 +46,7 @@ Proprietà:
 	- Una rete è viva $\iff$ t è viva, $\forall t\in T$ 
 	- Tutte le transizioni di una rete viva possono scattare infinite volte
 ![Imgur|300](https://i.imgur.com/dzekwwr.png)
+
 ##### Commenti sulla Vivezza
 Definisce una transizione che può scattare infinite volte
 Una transizione morta scatta 0 volte e può definire una non esecuzione
@@ -53,7 +54,7 @@ Una marcatura è viva se posso trovare strade per cui posso far scattare tutte l
 ##### Marcatura Morta
 Marcatura che non può abilitare nessuna transizione(Lo stesso si applica al concetto di transizione morta: transizione che non può raggiungere nessun posto)
 ### Metodi Investigativi per la Ricerca delle Proprietà
-##### Calcolo della totalità degli stati della Rete di Petri
+**Calcolo della totalità degli stati della Rete di Petri**
 - Calcolo il grafo di raggiungibilità(Sostituibile con l'albero di raggiungibilità)
 - Rappresento la totalità delle marcature
 Una marcatura può essere rappresentata come un vettore colonna in cui 1 indica la presenza di un token nel posto corrispondente
