@@ -1,3 +1,7 @@
+SDN Index: [[Software Defined Networking]]
+Index: [[Index]]
+
+---
 Inizio capitolo host node: sono i nodi su cui sono presenti le funzioni di compute e hanno una significativa parte di networking. La destinazione del traffico non è esterna al nodo ma è un processo/applicazione in esecuzione sulla macchina locale. Oggi quasi nessun server esegue processi sul OS ma hanno vari strati di virtualizzazione e quindi è presente una parte di networking che instrada i pacchetti verso la corrispondente VM.
 Può capitare che intere funzioni sono virtualizzati e quindi un host viene usato come router(Sia lato client che lato server).
 Cerchiamo di tenere come riferimento la visione classica poichè gli aspetti virtualizzati sono rappresentati come sistemi di rete con nessuna differenza da nodi di rete reali.

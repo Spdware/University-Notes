@@ -3,6 +3,10 @@ Index:[[Index]]
 Economia:[[Economia]]
 
 ---
+# Cose non comprese in esame
+- Imposte/credito d'imposta
+- imponibile negativo
+
 ### Agenda
 Vogliamo valutare se una scelta di un'azienda è sostenibile dal livello finanziario(Esistono anche punti di vista ambientali, sociali etc...)
 Una valutazione di un investimento comprende criteri deterministici e non deterministici(Aiutano a comprendere se l'investimento è utile/conveniente o meno)
@@ -115,3 +119,5 @@ Calcolare l'IRR significa risolvere un polinomio di grado T(orizzonte temporale 
 ![|350](https://i.imgur.com/Uv7SiQZ.png)
 
 Devo avere una struttura iniziale di esborso, avere forti ricavi nei primi anni e poi posso avere anche ricavi bassi(Permette di rientrare prima nell'investimento e permette una stabilità del flusso di cassa)
+
+

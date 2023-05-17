@@ -1,3 +1,8 @@
+Index:[[Index]]
+
+Economia:[[Economia]]
+
+---
 # La Contabilità Analitica
 **Definizione e Classificazione**
 La contabilità esterna analizza l'impresa nel suo complesso e ha valenza esterna, vuole comunicare all'esterno il suo andamento su attività già effettuate, non veicolano informazioni strategiche.
