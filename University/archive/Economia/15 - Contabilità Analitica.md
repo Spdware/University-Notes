@@ -50,6 +50,7 @@ Tre macrocategorie:
 - Lavoro diretto
 - Overheads
 Sono usate quattro tecniche:
+
 | |Materiali diretti|Lavoro diretto|Costi Indiretti|
 |-|-|-|-|
 |Process Costing|Proporzionale|Proporzionale|Proporzionale|
@@ -90,10 +91,10 @@ Introduce una fase intermedia in cui divido gli overheads nelle varie attività 
 Tecnica utilizzata quando abbiamo processi produzione a flusso continuo(cemento, petrolio, vernice, etc...).
 Molto più semplice allocare il costo in base al volume di prodotto in output.
 Nel caso base avrò un unico prodotto, monoreparto e non ho prodotti WIP
-$$ C_u = \frac{C_{tot}}{Q}$$
+$$C_u = \frac{C_{tot}}{Q}$$
 
 Nella realtà è molto difficile non avere prodotti WIP dunque devo calcolarne l'unità di prodotto equivalente che permette di ricondurre i WIP ai prodotti finiti 
-$$ U_e = U_c + WIP*Coeff.Compl. $$
+$$U_e = U_c + WIP*Coeff.Compl.$$
 
 Facciamo cadere anche l'ipotesi di monoprodotto: uso il calolo di unità equivalenti ed introduco il coefficiente di equivalenza di prodotto che mii permette di ricondurre i costi di diversi prodotti a quelli di un unico prodotto scelto
 $$U_e = (U_c + WIP* Coeff. Compl)*Coeff.Equiv.Prod.$$
