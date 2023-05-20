@@ -9,6 +9,12 @@ Possono essere necessarie delle ipotesi per coprire situazioni non chiarite dall
 Elenco le macrofunzioni:
 - Attività(OP, LAV): individuazione delle mansioni che deve compiere la nostra macchina 
 - Ricetta: operazione in cui si uniscono le varie attività tramite dei posti di transizione(cercare di evitare di aggiungere roba a caso).
+
+![|500](https://i.imgur.com/y3SSrJV.png)
+
+![|300](https://i.imgur.com/vtIeDD0.png)
+
+
 - Risorse a Disposizione: comporta l'utilizzo dei token all'interno della RdP 
 - Prodotti: sono modellizzati attraverso i token all'interno dei posti. 
 

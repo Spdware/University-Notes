@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1629896375f121cf",
+        "id": "3b05efdb888d6a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "7b0ce3223039217c",
+            "id": "594bcdf2cb577b07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -64,6 +60,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8def09a5b620ba50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "archive/Automazione Industriale/Reti di Petri.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,11 +146,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b0ce3223039217c",
+  "active": "299621fb99dc8bbb",
   "lastOpenFiles": [
+    "archive/Automazione Industriale/Modellistica.md",
+    "assets/Pasted image 20230520125251.png",
+    "().md",
+    "assets/Pasted image 20230520125117.png",
+    "assets/Pasted image 20230520125058.png",
+    "archive/Automazione Industriale/Reti di Petri.md",
+    "archive/Software Defined Networking/Lab 1- Introduzione.md",
+    "archive/Software Defined Networking/Extended Berkeley Packet Filter.md",
+    "archive/Software Defined Networking/16 - Algoritmi di tipo probabilistico.md",
+    "archive/Software Defined Networking/15 - Randomixed Counting.md",
+    "archive/Software Defined Networking/14 - Traffic Managment.md",
+    "archive/Software Defined Networking/13 - Berkeley Packet Filter.md",
+    "archive/Software Defined Networking/12 - Endnodes.md",
+    "archive/Meccanica/04_04_2023.pdf",
+    "archive/Meccanica/03_28_2023.pdf",
+    "archive/Meccanica/03_21_2023.pdf",
+    "archive/Meccanica/03_14_2023.pdf",
+    "archive/Meccanica/03_09_2023.pdf",
+    "archive/Meccanica/02_28_2023.pdf",
+    "archive/Meccanica/02_21_2023.pdf",
+    "archive/Meccanica/02_02_2023.pdf",
+    "archive/Interfacce grafiche in Java.md",
+    "archive/Economia/16 - Decisione di Breve Periodo.md",
+    "archive/Economia/15 - Contabilità Analitica.md",
+    "archive/Economia/05 - Le Forme Giuridiche.md",
+    "archive/Economia/04 - Concorrenza.md",
+    "archive/Economia/03 - Domanda.md",
+    "archive/Economia/02 - Introduzione all'Impresa.md",
+    "archive/Economia/01 - Perchè Economia e Organizzazione Aziendale.md",
+    "archive/Automazione Industriale/Controllo.md",
+    "archive/10726468.md",
     "assets/Pasted image 20230406105710.png",
     "archive/Software Defined Networking/Lab 5-Classificazione e Modifica pacchetti.md",
-    "archive/Automazione Industriale/Reti di Petri.md",
     "archive/Economia/14 - Valutazione Investimenti.md",
     "assets/Pasted image 20230403105249.png",
     "assets/Pasted image 20230403105006.png",
@@ -161,30 +191,7 @@
     "archive/Economia/12 - Rendiconto Finanziario.md",
     "archive/Economia/13 - Analisi di Bilancio - Indici Sintetici.md",
     "assets/Pasted image 20230331134159.png",
-    "assets/Pasted image 20230331133448.png",
-    "archive/Automazione Industriale/Ladder Diagram.md",
-    "archive/Automazione Industriale/PLC.md",
-    "archive/Automazione Industriale/SFC.md",
-    "assets/Pasted image 20230330114256.png",
-    "assets/Pasted image 20230330114148.png",
-    "assets/Pasted image 20230330114111.png",
-    "archive/Software Defined Networking/Lab 4-Switching.md",
-    "archive/Software Defined Networking/Lab 3-Programmazione Switch.md",
-    "index/index_folder/Economia.md",
-    "archive/Software Defined Networking/Lab 2-Openflow.md",
-    "index/index_folder/Software Defined Networking.md",
-    "index/index_folder/Automazione Industriale.md",
-    "index/Index.md",
-    "templates/Notes.md",
     "index/index_folder",
-    "index",
-    "archive",
-    "templates",
-    "assets",
-    "archive/Meccanica/Sistemi di corpi rigidi.md",
-    "archive/Automazione Industriale",
-    "archive/Software Defined Networking",
-    "archive/Economia",
-    "archive/Meccanica"
+    "index"
   ]
 }
