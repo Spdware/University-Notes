@@ -9,13 +9,15 @@ POSTSET(x)=x$\dot{}$=$\{y\in P\times T|(x,y)\in F\}$
 # Regole di Evoluzione
 - Transizione Abilitata: $\forall p\in \dot{}t,M(p)\geq W(p,t)$
 - (Se abilitata) t può scattare:
+
 |  |  |
 |-----|------|
 |M(p)=M'(p)|altrove|
 |M'(p)=M(p) - W(p,t)|$p\in \dot{}t- t\text{ }\dot{}$|
 |M'p)=M(p) + W(t,p)|$p\in t \text{ }\dot{}-\dot{}t$|
 |M'(p)=M(p) - W(p,t) + W(t,p)|$p\in  \text{t } \dot{}\cap \dot{} \text{ t}$|
-- Può scattare una sola transizione alla volta(Eventi non accadono insieme)
+
+x- Può scattare una sola transizione alla volta(Eventi non accadono insieme)
 - Scelgo la transizione da far scattare casualmente(Algoritmo Token Player)
 
 ![Imgur|350](https://i.imgur.com/Uqyniip.png)
@@ -151,7 +153,7 @@ Calcolati attraverso un algoritmo:
 ### T-Invarianti
 Si definiscono T-invarianti di una rete N un vettore colonna y di dimensione |T| soluzione della seguente equazione: $Cy=0$
 Dall'equazione di stato si deduce immediatamente che se y è un vettore delle occorrenze coincidente con un T-invariante allora: $M=M_0+Cy=M_0$
-La presenza di un T-invariante non implica che sia davvero possibile ritornare alla marcatura iniziale poichè potrebbe non esistere alcuna sequenza di scatti ammissibile tale che il relativo vettore delle occorrenze sia proprio il nostro T-invariante. Un T-invariante implica solamente che se si fanno scattare le tranzizioni della rete un numero di volte pari a quello indicato in y allora la rete potrebbe tornare alla posizione iniziale. La proprietà di Reversibilità implica l'esistenza di uno o più T-invarianti.
+La presenza di un T-invariante non implica che sia davvero possibile ritornare alla marcatura iniziale poichè potrebbe non esistere alcuna sequenza di scatti ammissibile tale che il relativo vettore delle occorrenze sia proprio il nostro T-invariante. Un T-invariante implica solamente che se si fanno scattare le transizioni della rete un numero di volte pari a quello indicato in y allora la rete potrebbe tornare alla posizione iniziale. La proprietà di Reversibilità implica l'esistenza di uno o più T-invarianti.
 
 ### Sifoni
 Un insieme di posti è un sifone se e solo se $^\circ S⊆ S^\circ$. Dalla definizione se ne deduce che tutte le transizioni di ingresso per un sifone sono anche transizioni di uscita.
@@ -188,5 +190,5 @@ Se S è una trappola marcata nella marcatura M essa rimane marcata in tutte le m
 Il supporto di un P-invariante con elementi non negativi è un sifone e una trappola.
 ### Sifoni, Trappole e Vivezza
 Se ogni sifone contiene una trappola marcata in una marcatura M allora non esiste in $\lbrack M>$ (Insieme delle marcature raggiungibili) una marcatura morta. Se infatti esistesse una tale marcatura M' i posti senza gettoni costituirebbero un sifone marcato contraddicendo l'ipotesi.
-Notiamo che non è assolutamente detto che una rete in cui ogni sifone contiene una trappola narcata sia viva.
+Notiamo che non è assolutamente detto che una rete in cui ogni sifone contiene una trappola marcata sia viva.
 

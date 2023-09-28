@@ -22,7 +22,7 @@ Elenco le macrofunzioni:
 
 ![](https://i.imgur.com/532XARe.png)
 
-Il modello a due eventi e tre stati modella qualsiasi attività tramite uno stato di inizio, fine e processo. Inoltre usufruisce di degli eventi di inizio e fine per modellare l'azione.
+Il modello a due eventi e tre stati modella qualsiasi attività tramite uno stato di inizio, fine e processo. Inoltre usufruisce degli eventi di inizio e fine per modellare l'azione.
 Presenterà stati fisici modellanti condizioni in cui si trovano le componenti del sistema e stati logici modellanti condizioni logiche di funzionamento.
 Si passa poi a definire tutte le condizioni necessarie al verificarsi dell'attività(precondizioni, definiranno il preset della transizione di start) e tutte le condizioni che varranno una volta svolta l'attività(postcondizioni, definiranno il postset della transizione di fine).
 A questo punto basta completare la nostra rete di petri colleggando tutte le attività con posti intermedi rappresentanti la macchina tra un'attività e l'altra.

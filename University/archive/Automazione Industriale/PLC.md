@@ -4,7 +4,7 @@ Indice: [[Index]]
 ---
 Sono apparecchiature elettroniche programmabili per il controllo di macchine e processi industriali
 Sostituirono la logica cablata e i quadri di controllo a relè(riduzione di tempi e costi)
-Resistono agli ambienti industriali, non presentano dischi mobili, sono dotati di Watch-Dog(per istruzioni/programmi), SO molto affidabile e ad elevata diagnostica sia su HW che SW, compatto, integrabile con altri componenti di controllo
+Resistono agli ambienti industriali, non presentano dischi mobili, sono dotati di Watch-Dog(per istruzioni/programmi), OS molto affidabile e ad elevata diagnostica sia su HW che SW, compatto, integrabile con altri componenti di controllo
 
 ### Ciclo del PLC
 Essendo un dispositivo a segnali campionati il PLC durante il funzionamento esegue ciclicamente tre fasi fondamentali:
@@ -40,7 +40,7 @@ Il PLC è connesso con il sistema di programmazione e accetta scritture della me
 
 #### Watch Dog
 Sono sostanzialmente timer, che il sistema operativo associa a svariati componenti del PLC e all’esecuzione di svariate operazioni
-Ad un'ioperazione è associata una durata massima e se il timer raggiunge quell'intervallo di tempo prima che l'operazione sia conclusa genera un errore
+Ad un'operazione è associata una durata massima e se il timer raggiunge quell'intervallo di tempo prima che l'operazione sia conclusa genera un errore
 
 ### PLC da normativa IEC61131
 Sistema elettronico a funzionamento digitale, destinato all’uso in ambito industriale, che utilizza una memoria programmabile per l’archiviazione interna delle istruzioni orientate all’utilizzatore per l’implementazione di  funzioni specifiche, come quelle logiche, di sequenziamento, di  temporizzazione, di conteggio e di calcolo aritmetico, e per controllare,  mediante ingressi ed uscite sia digitali che analogiche, vari tipi di macchine e processi.

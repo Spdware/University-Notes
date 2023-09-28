@@ -29,7 +29,7 @@ Nascono così anche due algoritmi di interpretazione:
 - Approccio asincrono(controllo supervisivo): permette lo scatto di una sola transizione per ogni istante di tempo e per un dato evento. Permette così l'etichettature delle transizioni creando reti etichettate
 ### Progetto del controllore
 #### Approccio diretto
-Si parte a progettare il controllore dalle specifiche. Si analizzano le specifiche in modo da poter aggiungere le variabili di ingresso/uscita alla modellizzazione delle specifiche. Non presenta un processo di sintesi ma il controllore viene coistruito a partire dai dati forniti. 
+Si parte a progettare il controllore dalle specifiche. Si analizzano le specifiche in modo da poter aggiungere le variabili di ingresso/uscita alla modellizzazione delle specifiche. Non presenta un processo di sintesi ma il controllore viene costruito a partire dai dati forniti. 
 
 ![|400](https://i.imgur.com/VV4PLrQ.png)
 
@@ -44,7 +44,7 @@ comportamento specifico quindi di dispositivi e macchinari è dettato dal modell
 del controllore. 
 Nella seconda linea di pensiero, invece, il controllore si preoccupa  
 di intervenire sul sistema da controllare inibendo alcuni eventi, sulla base dello  
-stato osservato. n supervisore non decide quindi, in generale, l'esatta sequenza  
+stato osservato. Un supervisore non decide quindi, in generale, l'esatta sequenza  
 degli eventi. Per tale motivo, in questo caso si parla di "supervisore".
 ### Sintesi di un controllore
 Utilizzeremo Reti di Petri per modellizzare sia il controllore che l'impianto. Utilizzeremo dei P-Invarianti per permettere al controllore di impedire il conseguimento di alcune marcature del sistema.

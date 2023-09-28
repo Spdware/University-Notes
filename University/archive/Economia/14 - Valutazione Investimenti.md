@@ -108,7 +108,7 @@ La logica con cui analizziamo i flussi può essere di capitale proprio/di altri
 $$k = s*\frac{CapitaleProprio}{CapitaleDebito+CapitaleProprio}+i*\frac{CapitaleDebito}{CapitaleDebito+CapitaleProprio}$$
 
 ##### Criteri DCF: Internal Rate of Return/Tasso Interno di Rendimento
-Tasso di attualizzazione che rende l'NVP uguale a zero: $\sum_{t=0}^T\frac{NCF(t)}{(1+IRR)^t}=0$
+Tasso di attualizzazione che rende l'NPV uguale a zero: $\sum_{t=0}^T\frac{NCF(t)}{(1+IRR)^t}=0$
 
 ![|350](https://i.imgur.com/L9UqcCU.png)
 
