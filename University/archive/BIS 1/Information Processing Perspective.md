@@ -52,7 +52,7 @@ Company also have to decide how much they want to sell and how much they want to
 Bounded rationality represents the limited ability of individuals to process information.
 It causes a need for cooperation(EX. book of 1000 pages split between 10 people). In turn, cooperation involves individual specialization that generates information interdependencies among individuals/organizational units. Information interdependencies must be coordinated or organized in order for organizations to reach beyond the limits of individual rationality. The need for coordinating information interdependencies is the reason why organizations are created. If interdependencies are weak they can be overcome by one element without too much external help. 
 
-![[Pasted image 20240219173758.png]]
+![](https://i.imgur.com/KHmUByr.png)
 
 What you want to achieve is making predictions and stick to them. You want to maintain Actual sales and Sales Forecasts the nearer possible. I can change my plan in base at the result of my prediction only if my company can react fast and appropriately. You cannot assume you have the information to do quickly predictions and decision. So an adaptive approach to the prediction problem is a good idea but have problems to be realized.
 We need assistance to make market plans.
@@ -121,7 +121,7 @@ Agency theory aims at overcoming these limitations by explaining how organizatio
 It claims organizations can be seen as networks of contracts among individuals and coordination inside them can be based not only on command and control but also on the execution of transactions. There are transaction costs inside the organization(Agency costs). They emerge every time a decision-making task is delegated towards lower levels of the hierarchy. 
 The contracts need to satisfy your needs in the moment it is signed. Money are usually used as incentives to make people work more/harder/at the maximum they can. Degree of delegation increases increasing the incentives to sustains that delegation. 
 
-**![300](https://i.imgur.com/2Kosbnd.png)
+![300](https://i.imgur.com/2Kosbnd.png)
 
 Agency costs= control costs + warranty costs + residual loss
 There is hierarchical control inside market systems. In perfect market systems, customers have no control over their suppliers. In non perfect market systems there is hierarchical control of the market and customers can control their supplier to some extent. Monopoly can be fooled having a miriad of supplier controlled by you and they are all indipendent. 
