@@ -1,0 +1,1 @@
+It is the most popular and well established learning paradigm. It is used when human can do the task but cannot explain it in an analytical way, when the task changes in a brief time multiple times, when the cost of human labour is excessive. 

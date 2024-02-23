@@ -1,0 +1,108 @@
+### Definition of information system
+- Technology represents a process (or a set of processes) that a given organization can perform, together with all the resources needed to perform the process
+- Technical system represents a set of machines supporting a given technology
+- Information System is a set of coordinated processes producing an information output and executing information processing activities
+- information system is a technology, an __IT architecture__ is a technical system supporting a given information system
+### Organizational impact of technical systems
+Set of consolidated beliefs tieing technical innovation with organizational change:
+##### 1. Technical innovation increases organizational efficiency (not effectiveness)
+
+##### 2. Technical innovation enables scale economies
+If an organization can afford the scale economy it can lower prices and be more competitive. Companies who cannot compete will become more and more minute until they don't share market value. If a small company can maintain a market value it is worth buying to the market value it has at the moment. This implies big company to race to grow in size to have a greater piece of market.
+ ##### 3. Technical innovation causes an increase in the optimal minimum organizational size
+The amount of technical system to compete is related to how much the market is evolving. This is due to scaling conducts.
+##### 4. Technical innovation increases individual specialization
+As in the industrial revolution with the introduction of production lines. Specializing a worker increases the efficiency, it changes the rules in an industry. It can also synchronize production lines to increase the efficiency. The production lines are designed to minimize people's movements and increase their efficiency splitting and synchronizing tasks. On the other hands the work is less enjoyable and lack the satisfaction of knowing how to make a product. People had to execute task but not delegate decisions. People less happy but organization is more efficient. Life at work becomes more quiet.
+##### 5. Tayloristic assumption: there exists an organizational optimum, optimal process obtained through optimal synchronization of individual tasks
+The solution for a work could be optimal for the machine and the organization disregarding everything else. Problem arise when people couldn't buy products as they haven't money. You know how to reach an optimal state for the factory, don't care for people working in a team. 
+##### 6. Groupwork was not an issue (not studied)
+Group work wasn't in demand. It was believed that technical innovation would bring wealth increase and intellectual innovation. Managerial would increase as a consequence. Problem is the production line were based on mutual adjustment, informal coordination, doesn't needing too much managment. Formal coordination requires a manager to coordinate people's work. Needed to not do a mess, there is a need to organize things. Work can be delegated but burocracy has to be controlled to not make a mess and becomes too complex.
+Manager has to design, formalize and control work to be sure things procede smoothly.
+##### 7. Technical innovation increases bureaucracy and formalization of work
+Bigger means more complex. Organizations __*NEED*__ to be well managed to not become inefficient.  
+##### 8. Overall, technical innovation increases the complexity of managerial tasks
+
+### Information processing perspective of organizational theory
+
+- Started in the ’60s-’70s, when IT becomes pervasive inside organizations.
+- Involves a complete change in traditional beliefs on the organizational impact of technical innovation
+- Radical change in the management principles of technology
+- Why? Because IT processes information, which is the resource of managerial processes. It manages physicals resources. Manager has to manage work and ensure that everything close smoothly. Managerial works bases on formalizing work.
+- Work has to be formalized and coordinated formally writing it down on something. 
+- By impacting on managerial processes, IT has an impact on the effectiveness of organization (not only efficiency)
+Information technologies is a technology supporting managerial work. Clearly as a production technology is similar to previous technology but as a managerial technology it is innovative. The impact of  new information technologies is order of impact greater than the previous ones. Even then manager are the one that are coordinating the work they have to be coordinated and IT has a great impact on these decisions. Managers need informations to do these decisions increasing IT importance.
+IT helps managing informations therefore has an impact on managerial work and on the growth of the company.
+Information is difference by other resources: it is not destroyed by use(Not Depletability). In addition it can be used to produce more information(Self Generating). From a Ingenieristic prospective a resource that is self generating and cannot be destroyed could lead to having too much of that resource(Information) resulting in overloading that result in an impossibility to process the information leading to the destruction of coordination.
+Short and concise information are better as they permit to focus on their content.
+With a good management information technology would have a beneficial influss. Otherwise you will have the opposite effect accelerating the failure of your system( Virtuous and vitious circles of information processes)
+### Three schools under the information perspective
+#### Decision theory
+Abstract concept but is a lot powerful
+Principles:
+1. Organizations as open systems they operate in a market and has to take note of its operations, they have to know where they are operating.
+2. Uncertainty as the variable describing the environment in which organizations operate. Uncertainty measures the ability of an organization to predict market demand. Has to do with the ability to predict the market. The focus on the level of uncertainty is related to the sales: companies want to have profits but they have to invest to obtain a profit. The investment determines the production volumes, the greater it is the grater the company could produce.
+3. Several determinants of uncertainty in the market:
+    - Market dynamism
+    - Number of suppliers in the market
+    - Variety and variability of market requirements
+    - Degree of innovation
+    - ... 
+Company also have to decide how much they want to sell and how much they want to reinvest in themselves.
+##### Bounded Rationality
+Bounded rationality represents the limited ability of individuals to process information.
+It causes a need for cooperation(EX. book of 1000 pages split between 10 people). In turn, cooperation involves individual specialization that generates information interdependencies among individuals/organizational units. Information interdependencies must be coordinated or organized in order for organizations to reach beyond the limits of individual rationality. The need for coordinating information interdependencies is the reason why organizations are created. If interdependencies are weak they can be overcome by one element without too much external help. 
+
+![[Pasted image 20240219173758.png]]
+
+What you want to achieve is making predictions and stick to them. You want to maintain Actual sales and Sales Forecasts the nearer possible. I can change my plan in base at the result of my prediction only if my company can react fast and appropriately. You cannot assume you have the information to do quickly predictions and decision. So an adaptive approach to the prediction problem is a good idea but have problems to be realized.
+We need assistance to make market plans.
+##### Information interdependencies
+
+![[Pasted image 20240219175439.png]]
+
+##### Hierarchical coordination system
+A hierarchy is a coordination system based on command and control (no delegation of decision-making activities). Practically, a hierarchy is a company or an institution. 
+Hierachies are associated with Vertical information systems and Horizontal (or lateral) information systems. The goal of information systems is the reduction of uncertainty
+The hierachy comes from discussion between people. It is high efficient also in handling information. Information can go from bottom to top and from top to bottom of the hierarchy.
+
+![[Pasted image 20240221083104.png]]
+
+Positivistic approach, hierarchy is banned on planning and control of the work below your position. Usually same level component discuss between them. if you are an executor you don't have to make decisions as if they are wrong is your fault if they are right the merit goes to your boss. There is also the problem information shouldn't be shared between different teams(NDA violations). But if it arise this problem the executor should ask is boss for a solution so the boss has to make a decision/ask is boss for permission or a plan. 
+
+![[Pasted image 20240221085454.png]]
+
+Exception can to occurs but they are addressed making a decision, then asking manager to a decision and then styling a procedure to handle the decision.
+But as the number of exception arise the structure can be overloaded and postpone the resolution of new exception(Issue is bounded rationality). When the exception cannot be handled the organization can only implements horizontally comunnication.
+##### Horizontal (lateral) information system
+Types of organization structures:
+
+![[Pasted image 20240221085041.png]]
+
+The information capacity of the organization increases going down the graph. These are organizational solutions. They are relevant as we want to know how to develop software. They are relevant as we want to design software which is taking in consideration how the client works. The division are interfunctional. Functions build on a necessity(Function hierarchy)
+- Liason Roles: unit of people with specific decision making roles. Not an easy task as you have to understand what are the issues and decision you are going to make. Needs to continuosly find solutions. Not easy to implement as it needs to be recognised by people(If it involves people and a learning curve it going to be slow).
+- Task force: assume exceptions are not recurring, group of people with decision roles that are assigned to the task force only for the time needed to make the decision. The people can be identified. It is interfunctional, you need to build lateral functioning system. You have to include people from different sectors, with different functions
+- Teams: handles interfunctional exceptions which are permanents/they are persistent and so is logical to have a permanent unit. 
+- Matrix Structures: is multiple hierarchy at the same time(Complex Structure). You need command. Multiple bosses, one for each hierarchy. Needs to precisely define responsibilities of each boss. Theoretical you behave going to your boss asking how much time dedicating to the team. Problems could arise and you might ask the different bosses if you can have more time dedicated or decide to dedicate more of your time to the problem(also doing overwork) but this could not be feasible in the long run so you ask help from your boss(More people in the team). 
+Another decision company could make is ignoring information capacity and hope their capacity is enough to cope with the ups and down with mi resources. The consequence of this approach is the product is going to be higher and so the company could be less competitive(depends on when but could be a period of time where it is still competitive).
+When times arrive the best way to survive is changing.
+##### Limitation of decision school
+It considers hirarchies as the only coordination mechanism
+It considers environmental uncertainty as the only form of uncertainty, never address issues of convincing people do what they have to do.
+#### Transaction cost economics
+Aims to overcomes limitations of decision school.
+There is behavioural uncertainty, it is the unpredictability of an human beings. It only could be supposed.
+An economic transaction is an exchange between a customer and a supplier in which the customer receives a product/service from the supplier in exchange for a given amount of money(Not includes transactions with products exchanges). The transaction is terminated at the end of the exchange, it simplifies your life as it use the cooperation to do certain tasks for the cost of money. It is a cooperation mechanism, it has to be formalized, quite effective, it is the most innate and straightforward of cooperation mechanism(Transient cooperation mechanism not creating lasting bonds). People like to be free as they are opportunistic, they do their own good(Bad assumptiom as it is not positive, but taking it into account it could create the most optimal cooperation system, it is good enough).
+It is efficient as people are working for themselves, they take all the benefit from their work so they maximise the efforts(People working for others will take as much time as they can to do the job to make more money). 
+
+##### Economic Transactions
+An economic transaction is an exchange between a customer and a supplier in which the customer receives a product/service from the supplier in exchange for a given amount of money. A transaction represents a very old and simple way for individuals and organization to cooperate.
+A transaction is executed when an individual/organizational objective is beyond the limits of individual/organizational rationality.
+They reduce individual uncertainty by leveraging opportunism. Individuals produce for themselves and have maximum benefits from their own efficiency. However coordination involves the execution of a transaction(it has a transaction cost). The overall cost of a coordination mechanism is the sum of production cost and transaction cost. Usually production costs are low as individual tend to be very efficient, transaction costs are low only in perfect market condition.
+
+![350](https://i.imgur.com/7erQa30.png)
+
+Choice is usually made by price and usually people choose trusting the market and it self-regulation system. 
+Problem on low end and high end market as the middle market(Mass Market, 80% of the market) is usually self-regulated. Usually individual buy from mass market but if they want to save money or they don't really have choice they buy stuff from low market. In the other hands if individuals want some precise merch and they don't want to compromise they will buy from the high end market.
+Usually there is a phase of matchmaking where I search for the supplier that satisfies my needs. 
+##### The price system
+#### Agency theory
