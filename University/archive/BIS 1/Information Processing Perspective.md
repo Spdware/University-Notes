@@ -66,12 +66,12 @@ The hierachy comes from discussion between people. It is high efficient also in 
 
 ![](https://i.imgur.com/mqdnUAy.png)
 
-Positivistic approach, hierarchy is banned on planning and control of the work below your position. Usually same level component discuss between them. if you are an executor you don't have to make decisions as if they are wrong is your fault if they are right the merit goes to your boss. There is also the problem information shouldn't be shared between different teams(NDA violations). But if it arise this problem the executor should ask is boss for a solution so the boss has to make a decision/ask is boss for permission or a plan. 
+Positivistic approach, hierarchy is banned on planning and control of the work below your position. Usually same level component discuss between them. if you are an executor you don't have to make decisions as if they are wrong is your fault if they are right the merit goes to your boss. There is also the problem information shouldn't be shared between different teams(NDA violations). But if it arise this problem the executor should ask his boss for a solution so the boss has to make a decision/ask his boss for permission or a plan. 
 
 ![](https://i.imgur.com/4ex52Kk.png)
 
 Exception can to occurs but they are addressed making a decision, then asking manager to a decision and then styling a procedure to handle the decision.
-But as the number of exception arise the structure can be overloaded and postpone the resolution of new exception(Issue is bounded rationality). When the exception cannot be handled the organization can only implements horizontally comunnication.
+But as the number of exception arise the structure can be overloaded and postpone the resolution of new exception(Issue is bounded rationality). When the exception cannot be handled the organization can only implements horizontally communication.
 #### Horizontal (lateral) information system
 Types of organization structures:
 
@@ -100,7 +100,7 @@ They reduce individual uncertainty by leveraging opportunism. Individuals produc
 
 ![350](https://i.imgur.com/7erQa30.png)
 
-Choice is usually made by price and usually people choose trusting the market and it self-regulation system. 
+Choice is usually made by price and usually people choose trusting the market and its self-regulation system. 
 Problem on low end and high end market as the middle market(Mass Market, 80% of the market) is usually self-regulated. Usually individual buy from mass market but if they want to save money or they don't really have choice they buy stuff from low market. In the other hands if individuals want some precise merch and they don't want to compromise they will buy from the high end market.
 Usually there is a phase of matchmaking where I search for the supplier that satisfies my needs. 
 A good market is a market that minimize the cost of transactions. There have to be multiple supplier that are competing between them.
