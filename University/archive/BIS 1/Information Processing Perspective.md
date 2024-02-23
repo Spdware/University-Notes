@@ -36,7 +36,7 @@ Information is difference by other resources: it is not destroyed by use(Not Dep
 Short and concise information are better as they permit to focus on their content.
 With a good management information technology would have a beneficial influss. Otherwise you will have the opposite effect accelerating the failure of your system( Virtuous and vitious circles of information processes)
 ### Three schools under the information perspective
-#### Decision theory
+### 1.Decision theory
 Abstract concept but is a lot powerful
 Principles:
 1. Organizations as open systems they operate in a market and has to take note of its operations, they have to know where they are operating.
@@ -48,7 +48,7 @@ Principles:
     - Degree of innovation
     - ... 
 Company also have to decide how much they want to sell and how much they want to reinvest in themselves.
-##### Bounded Rationality
+#### Bounded Rationality
 Bounded rationality represents the limited ability of individuals to process information.
 It causes a need for cooperation(EX. book of 1000 pages split between 10 people). In turn, cooperation involves individual specialization that generates information interdependencies among individuals/organizational units. Information interdependencies must be coordinated or organized in order for organizations to reach beyond the limits of individual rationality. The need for coordinating information interdependencies is the reason why organizations are created. If interdependencies are weak they can be overcome by one element without too much external help. 
 
@@ -56,27 +56,26 @@ It causes a need for cooperation(EX. book of 1000 pages split between 10 people)
 
 What you want to achieve is making predictions and stick to them. You want to maintain Actual sales and Sales Forecasts the nearer possible. I can change my plan in base at the result of my prediction only if my company can react fast and appropriately. You cannot assume you have the information to do quickly predictions and decision. So an adaptive approach to the prediction problem is a good idea but have problems to be realized.
 We need assistance to make market plans.
-##### Information interdependencies
+#### Information interdependencies
 
-![[Pasted image 20240219175439.png]]
-
-##### Hierarchical coordination system
+![](https://i.imgur.com/992MR2Z.png)
+#### Hierarchical coordination system
 A hierarchy is a coordination system based on command and control (no delegation of decision-making activities). Practically, a hierarchy is a company or an institution. 
 Hierachies are associated with Vertical information systems and Horizontal (or lateral) information systems. The goal of information systems is the reduction of uncertainty
 The hierachy comes from discussion between people. It is high efficient also in handling information. Information can go from bottom to top and from top to bottom of the hierarchy.
 
-![[Pasted image 20240221083104.png]]
+![](https://i.imgur.com/mqdnUAy.png)
 
 Positivistic approach, hierarchy is banned on planning and control of the work below your position. Usually same level component discuss between them. if you are an executor you don't have to make decisions as if they are wrong is your fault if they are right the merit goes to your boss. There is also the problem information shouldn't be shared between different teams(NDA violations). But if it arise this problem the executor should ask is boss for a solution so the boss has to make a decision/ask is boss for permission or a plan. 
 
-![[Pasted image 20240221085454.png]]
+![](https://i.imgur.com/4ex52Kk.png)
 
 Exception can to occurs but they are addressed making a decision, then asking manager to a decision and then styling a procedure to handle the decision.
 But as the number of exception arise the structure can be overloaded and postpone the resolution of new exception(Issue is bounded rationality). When the exception cannot be handled the organization can only implements horizontally comunnication.
-##### Horizontal (lateral) information system
+#### Horizontal (lateral) information system
 Types of organization structures:
 
-![[Pasted image 20240221085041.png]]
+![](https://i.imgur.com/VQHDQD2.png)
 
 The information capacity of the organization increases going down the graph. These are organizational solutions. They are relevant as we want to know how to develop software. They are relevant as we want to design software which is taking in consideration how the client works. The division are interfunctional. Functions build on a necessity(Function hierarchy)
 - Liason Roles: unit of people with specific decision making roles. Not an easy task as you have to understand what are the issues and decision you are going to make. Needs to continuosly find solutions. Not easy to implement as it needs to be recognised by people(If it involves people and a learning curve it going to be slow).
@@ -85,7 +84,7 @@ The information capacity of the organization increases going down the graph. The
 - Matrix Structures: is multiple hierarchy at the same time(Complex Structure). You need command. Multiple bosses, one for each hierarchy. Needs to precisely define responsibilities of each boss. Theoretical you behave going to your boss asking how much time dedicating to the team. Problems could arise and you might ask the different bosses if you can have more time dedicated or decide to dedicate more of your time to the problem(also doing overwork) but this could not be feasible in the long run so you ask help from your boss(More people in the team). 
 Another decision company could make is ignoring information capacity and hope their capacity is enough to cope with the ups and down with mi resources. The consequence of this approach is the product is going to be higher and so the company could be less competitive(depends on when but could be a period of time where it is still competitive).
 When times arrive the best way to survive is changing.
-##### Limitation of decision school
+#### Limitation of decision school
 It considers hirarchies as the only coordination mechanism
 It considers environmental uncertainty as the only form of uncertainty, never address issues of convincing people do what they have to do.
 #### Transaction cost economics
@@ -94,7 +93,7 @@ There is behavioural uncertainty, it is the unpredictability of an human beings.
 An economic transaction is an exchange between a customer and a supplier in which the customer receives a product/service from the supplier in exchange for a given amount of money(Not includes transactions with products exchanges). The transaction is terminated at the end of the exchange, it simplifies your life as it use the cooperation to do certain tasks for the cost of money. It is a cooperation mechanism, it has to be formalized, quite effective, it is the most innate and straightforward of cooperation mechanism(Transient cooperation mechanism not creating lasting bonds). People like to be free as they are opportunistic, they do their own good(Bad assumptiom as it is not positive, but taking it into account it could create the most optimal cooperation system, it is good enough).
 It is efficient as people are working for themselves, they take all the benefit from their work so they maximise the efforts(People working for others will take as much time as they can to do the job to make more money). 
 
-##### Economic Transactions
+#### Economic Transactions
 An economic transaction is an exchange between a customer and a supplier in which the customer receives a product/service from the supplier in exchange for a given amount of money. A transaction represents a very old and simple way for individuals and organization to cooperate.
 A transaction is executed when an individual/organizational objective is beyond the limits of individual/organizational rationality.
 They reduce individual uncertainty by leveraging opportunism. Individuals produce for themselves and have maximum benefits from their own efficiency. However coordination involves the execution of a transaction(it has a transaction cost). The overall cost of a coordination mechanism is the sum of production cost and transaction cost. Usually production costs are low as individual tend to be very efficient, transaction costs are low only in perfect market condition.
@@ -104,5 +103,26 @@ They reduce individual uncertainty by leveraging opportunism. Individuals produc
 Choice is usually made by price and usually people choose trusting the market and it self-regulation system. 
 Problem on low end and high end market as the middle market(Mass Market, 80% of the market) is usually self-regulated. Usually individual buy from mass market but if they want to save money or they don't really have choice they buy stuff from low market. In the other hands if individuals want some precise merch and they don't want to compromise they will buy from the high end market.
 Usually there is a phase of matchmaking where I search for the supplier that satisfies my needs. 
-##### The price system
-#### Agency theory
+A good market is a market that minimize the cost of transactions. There have to be multiple supplier that are competing between them.
+If competition, cost tends to be low as it is needed to be competitive.
+#### The price system
+In perfect market condition price is always the indicator for your choice. The price system is the information indicator of the market coordination mechanism.
+Price is not set only by production cost but also by the market system. If the market is working properly price is not too far from production costs and is a good indicator of quality.
+Choice between market and hierarchical coordination mechanism is driven by cost(Make or Buy decision). If markets fail hierarchies replace markets
+
+![300](https://i.imgur.com/QLMgBzh.png)
+
+The impact of information technology is that reduces coordination costs as an organizational technology. Also it has a greater impact on market systems and should reduce hierarchies(smaller and more numerous companies)
+#### Limitations of transaction cost economics
+They consider markets and hierarchies as alternative coordination mechanism. They ignore the impact of behavioural uncertainty inside organizations. 
+### 2.Agency theory
+It is an economic theory so it is based on money.
+Agency theory aims at overcoming these limitations by explaining how organizations can apply market coordination mechanism to increase their efficiency.
+It claims organizations can be seen as networks of contracts among individuals and coordination inside them can be based not only on command and control but also on the execution of transactions. There are transaction costs inside the organization(Agency costs). They emerge every time a decision-making task is delegated towards lower levels of the hierarchy. 
+The contracts need to satisfy your needs in the moment it is signed. Money are usually used as incentives to make people work more/harder/at the maximum they can. Degree of delegation increases increasing the incentives to sustains that delegation. 
+
+**![300](https://i.imgur.com/2Kosbnd.png)
+
+Agency costs= control costs + warranty costs + residual loss
+There is hierarchical control inside market systems. In perfect market systems, customers have no control over their suppliers. In non perfect market systems there is hierarchical control of the market and customers can control their supplier to some extent. Monopoly can be fooled having a miriad of supplier controlled by you and they are all indipendent. 
+This model is limitated because it works in theory as it is a theorical system. It neglects the uncertainty caused by the the nature of the task to be executed. The role of technology is strongly tied to the nature of tasks. Technical innovation represents a driver of organizational change that, depending on the nature of tasks, can change the cost balance among different coordination mechanism. Information system theory aims at overcoming these limitations.
