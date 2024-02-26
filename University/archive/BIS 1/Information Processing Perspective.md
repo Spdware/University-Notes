@@ -4,7 +4,7 @@
 - Information System is a set of coordinated processes producing an information output and executing information processing activities
 - information system is a technology, an __IT architecture__ is a technical system supporting a given information system
 ### Organizational impact of technical systems
-Set of consolidated beliefs tieing technical innovation with organizational change:
+Set of consolidated beliefs tying technical innovation with organizational change:
 ##### 1. Technical innovation increases organizational efficiency (not effectiveness)
 
 ##### 2. Technical innovation enables scale economies
