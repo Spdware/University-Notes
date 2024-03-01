@@ -39,13 +39,28 @@ $$\omega_0=\frac{1}{N}\sum_{n=1}^{N}t_n-\sum_{j=1}^{M-1}\omega_j\frac{1}{N}\sum_
 Thus the bias $\omega_0$ compensates for the difference between the averages (over the training set) of the target values and the weighted sum of the averages of the basis function values. We can also maximize the log likelihood function with respect to the noise precision parameter β, giving: 
 $$\frac{1}{\beta_ML}=\frac{1}{N}\sum_{n-1}^{N}\{t_n-\mathbf w_{ML}^T\phi(\mathbf x_n)\}^2$$
 and so we see that the inverse of the noise precision is given by the residual variance of the target values around the regression function.
-### Geometry of least squares
+#### Geometry of least squares
 
 ![](https://i.imgur.com/F6WKXuH.png)
 
-### Sequential learning
+#### Sequential learning
 Batch techniques, such as the maximum likelihood solution, which involve processing the entire training set in one go, can be computationally costly for large data sets. If the data set is sufficiently large, it may be worthwhile to use sequential algorithms, also known as on-line algorithms, in which the data points are considered one at a time, and the model parameters updated after each such presentation. Sequential learning is also appropriate for realtime applications in which the data observations are arriving in a continuous stream, and predictions must be made before all of the data points are seen.
 
 ![](https://i.imgur.com/R2ItnnS.png)
 
-### Regularized least squares
+#### Regularized least squares
+We introduced the idea of adding a regularization term to an error function in order to control over-fitting, so that the total error function to be minimized takes the form
+$E_D(\mathbf w) + λE_W (\mathbf w)$ where $\lambda$ is the regularization coefficient that controls the relative importance of the data-dependent error $E_D(\mathbf w)$ and the regularization term $E_W(\mathbf w)$. 
+One of the simplest forms of regularizer is given by the sum-of-squares of the weight vector elements  $E_w(\mathbf w)=\frac{1}{2}\mathbf w^T\mathbf w$. If we also consider the sum-of-squares error function given by $E(\mathbf w)=\frac{1}{2}\sum_{n=1}^{N}\{t_n - \mathbf W^T\phi(\mathbf x_n)\}^2$  then the total error function becomes 
+$$\frac{1}{2}\sum_{n=1}^{N}\{t_n-\mathbf w^T\phi(\mathbf x_n)\}^2+\frac{\lambda}{2}\mathbf w^T\mathbf w$$
+This particular choice of regularizer is known as weight decay because in sequential learning algorithms, it encourages weight values to decay towards zero, unless supported by the data. In statistics, it provides an example of a parameter shrinkage method because it shrinks parameter values towards zero. It has the advantage that the error function remains a quadratic function of w, and so its exact minimizer can be found in closed form. Specifically we obtain $\mathbf w = (\lambda\mathbf I+ \varPhi^T\varPhi)^{-1}\varPhi^T\mathbf t$, that represent a simple extension of the the least-square solution. 
+
+![500](https://i.imgur.com/TR07JES.png)
+
+![](https://i.imgur.com/7i1G6X1.png)
+
+#### Multiple outputs
+ In some applications, we may wish to predict K > 1 target variables, which we denote collectively by the target vector $\mathbf t$. This could be done by introducing a different set of basis functions for each component of $\mathbf t$, leading to multiple, independent regression problems. However, a more interesting, and more common, approach is to use the same set of basis functions to model all of the components of the target vector so that $y(\mathbf x,\mathbf w)=W^T\phi(\mathbf x)$ where y is a K-dimensional column vector, $\mathbf W$ is an M × K matrix of parameters, and $\varPhi(\mathbf x)$ is an M-dimensional column vector with elements $\mathbf \varPhi_j (\mathbf x)$, with $\varPhi_0(\mathbf x)=1$ as before. Suppose we take the conditional distribution of the target vector to be an isotropic Gaussian of the form $p(\varPhi t| \mathbf t, \mathbf W, \beta)=\aleph(\mathbf t|\mathbf W^T\varPhi(\mathbf x), \beta^{-1}\mathbf I)$. If we have a set of observations $\mathbf t_1,..., \mathbf t_N$ , we can combine these into a matrix $\mathbf T$ of size N × K such that the $n^{th}$ row is given by $\mathbf t_n^T$ Similarly, we can combine the input vectors $\mathbf x_1,..., \mathbf x_N$ into a matrix $\mathbf X$. The log likelihood function is then given by:
+ $$ln(p(\mathbf T|\mathbf X,\mathbf W,\beta))=\sum_{n=1}^N ln\aleph(\mathbf t_n|\mathbf W^T\phi(\mathbf x),\beta^{-1}\mathbf  I)=\frac{NK}{2}ln(\frac{\beta}{2\pi})-\frac{\beta}{2}\sum_{n=1}^N\lVert\mathbf t_n-\mathbf W^T\phi(\mathbf x_n)\rVert^2 $$
+ As before, we can maximize this function with respect to $\mathbf W$, giving $\mathbf W_{ML}=(\varPhi^T\varPhi)^{-1}\varPhi^T\mathbf T$. If we examine this result for each target variable $t_k$, we have $\mathbf w_k=(\varPhi^T\varPhi)^{-1}\varPhi^T\mathbf t_k=\varPhi^\dagger \mathbf t_k$ where $t_k$ is an N-dimensional column vector with components $t_nk$ for n = 1,...,N. Thus the solution to the regression problem decouples between the different target variables, and we need only compute a single pseudo-inverse matrix $\varPhi^†$ , which is shared by all of the vectors $\mathbf w_k$.
+### Bayesian Linear Regression
