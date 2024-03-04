@@ -43,7 +43,7 @@ GPu training DNN on multiple GPUs has become to heavy in memory(3.2 TB for GPT 3
 Devices used only for machine learning. Data Centers could not handle the requests from models and application. Need of an architecture for ML loads. 
 A Tensor is an n-dimensional matrix. This is the basic unit of operation in TensorFlow.
 TPUs are used for training and inference: TPUv1 is an inference-focused accelerator connected to the host CPU through PCIe links, differently, TPUv2, TPV3, and TPV4 focus on training and inference
-In TPUv2 you can access a fast memory. THe memory was 10x faster than DDR4, today is 20x faster than DDR4. THese modules can be put in clusters called POD with up to 512 TPU and 4  TB of total memory(Usually they have 64 units).
+In TPUv2 you can access a fast memory. The memory was 10x faster than DDR4, today is 20x faster than DDR4. These modules can be put in clusters called POD with up to 512 TPU and 4  TB of total memory(Usually they have 64 units).
 TPUv3 the devices could be watercooled. You don't only perform training but also AutoML(choose the best model for the task, can change it during the operations, selects the best solution for the task), new ML capabilities. 
 TPUv4 was announced during 2021, initially used only to support google services(not available as a cloud service). Now there are also TPUv5 with two version v5e and v5p
 
