@@ -1,0 +1,2 @@
+Modelling is challenging. But if we have some knowledge we should be able to add it into the prior even if it result costly. Approximated approaches are used in the more general case.
+We need to expand the input space with various basis function but we pay the price in easyness of getting overfitting and in general this issue is called *curse of dimensionality*(Linearly increasing the number of function you increase the complexity of the model and tends to be overfitted). These solutions are adapted by design and cannot be added to the model.

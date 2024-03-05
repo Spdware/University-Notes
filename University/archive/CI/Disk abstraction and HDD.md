@@ -44,6 +44,34 @@ Two different technologies to connect disk to the motherboard:
 
 ![](https://i.imgur.com/lP838UK.png)
 
-Service time: $T_{I/O}=T_{seek}+T_{rotation}+T_{transfer}+T_{overhead}$
-Response time: $T_{queue}+T_{I/O}$ where the queue time depends on the queue length, resource utilization, mean and variance of disk service time and request arrival distribution. Having a small service time is really good for your system.
+Service time(Single operation time without queueing): $T_{I/O}=T_{seek}+T_{rotation}+T_{transfer}+T_{overhead}$
+Response time($\tilde R$): $T_{queue}+T_{I/O}$ where the queue time depends on the queue length, resource utilization, mean and variance of disk service time and request arrival distribution. Having a small service time is really good for your system.
 Average Service Time: $T_{I/O}=(1-DataLocality)*(T_{seek}+T_{rotation})+T_{transfer}+T_{overhead}$
+We want to have another degree of liberty where we want to reduce the seek time. You want to serve the shorter job firstly and the longer job secondly as to maintain a good response rateo. We have to reorder the requests in order of the shortest seek time. It create the problem that the further address are not accesses very frequently, they are always postponed(A scheduler has to be always fair). 
+
+![](https://i.imgur.com/KDxWYCa.png)
+
+So we can implement the so called elevator: we continue to move across the disk to make the target addresses continuous. Problem is arising in power consumption and the addresses in the middle has half the waiting time than the ends.
+
+![](https://i.imgur.com/NA9UAcX.png)
+
+Circular SCAN tries to solve these problems going in only one direction and swapping the addresses to continue in doing so
+
+![](https://i.imgur.com/qYutNHi.png)
+
+### Implementing Disk Scheduling
+-  OS scheduling
+	- Requests re-ordering by LBA
+	- However, the OS cannot account for rotation delay
+- On-disk scheduling
+	- Disk knows the exact position of the head and platters
+	- Can implement more advanced schedulers
+	- But, requires specialized hardware and drivers
+- Disk Command Queue
+	- Available in all modern disks
+	- Queue where a disk stores pending read/write requests
+		- Called Native Command Queuing (NCQ)
+	- Disk may reorder items in the queue to improve performance
+- Joint OS & on-disk scheduling can bring to problems
+	- E.g. "NCQ vs. I/O Scheduler: Preventing Unexpected Misbehaviors "
+We really want to implement it in the controller and not in the OS to maintain the CPU free to do others, more useful jobs.
