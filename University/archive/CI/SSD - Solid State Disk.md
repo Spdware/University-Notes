@@ -19,4 +19,21 @@ Only empty pages can be written. Only dirty pages can be erased but this must be
 
 Flash cells can wear out due to the erasing of the cells. The silicon is degraded every time electricity flows in it. We don't want to reach the wear out but we want to reach this wear out state equally on all the cells in the system. We can use some empty space to replace weared out cells. The Flash Translation Layer is the component that is relegated to the job of mapping the cells and blocks and the wear state. With a static mapping you are always writing and erasing the same block in various cycle reaching the wear out of the cell faster. The FTL has to perform the data allocation, reduce the Write Amplification problem. Reads and Writes can flip the state of near cells. So you try to write the blocks in order. 
 When an existing page is updated old data becomes obsolete! Old version of data are called garbage and (sooner or later) garbage pages must be reclaimed for new writes to take place. Garbage Collection is the process of finding garbage blocks and reclaiming them. Garbage collection is expensive Require reading and rewriting of live data. Ideal garbage collection is reclamation of a block that consists of only dead pages.
+### Flash Translation Layer
+
+![](https://i.imgur.com/5cdrtwO.png)
+
+Direct mapping between Logical to Physical pages is not feasible
+FTL is an SSD component that make the SSD “look as HDD”
+We use the approach called as Log-Structured FTL, we try to limit the write amplification and try to program the pages in order to diminish the possibility of flipping bits in the neighboring pages. 
+
+![](https://i.imgur.com/qJeUJ5I.png)
+
+In this case we are maintaining the same structure but we are using a garbage collector to clean the location where there is invalid data. This situation is time consuming so we try to have the minimal delay from the garbage collecting task. 
+### Mapping Table Size
+The size of page-level mapping table is too large(With a 1TB SSD with a 4byte entry per 4KB page, 1GB of DRAM is needed for mapping). Some approaches to reduce the costs of mapping: Block-based mapping, Hybrid mapping, Page mapping plus caching.
+### Wear Leveling
+Erase/Write cycle is limited in Flash memory. Skewness in the EW cycles shortens the life of the SSD. All blocks should wear out at roughly the same time. Log-Structured approach and garbage collection helps in spreading writes. However, a block may consist of cold data. The FTL must periodically read all the live data out of such blocks and re-write it elsewhere. Wear leveling increases the write amplification of the SSD and decreases performance. Simple Policy: Each Flash Block has EW cycle counter so $Maintain= |Max(EW cycle) – Min(EW cycle)| < e$ 
+
+![](https://i.imgur.com/5ZfxB8m.png)
 
