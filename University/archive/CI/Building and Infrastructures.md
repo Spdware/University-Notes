@@ -22,3 +22,18 @@ Each topology of cooling system presents tradeoffs in complexity, efficiency, an
 - Fresh air cooling can be very efficient but does not work in all climates, requires filtering of airborne particulates, and can introduce complex control problems
 - Two-loop systems are easy to implement, relatively inexpensive to construct, and offer isolation from external contamination, but typically have lower operational efficiency
 - A three-loop system is the most expensive to construct and has moderately complex controls, but offers contaminant protection and good efficiency
+#### Container based Datacenter
+![](https://i.imgur.com/yBMyvVY.png)
+
+Datacenter builded inside a container in so you can have everything in a confined space. This solution can also be moved freely as it is capable to be contained in a container.
+### Datacenter consumption
+The datacenter consumption is really high, the power needed and $CO_2$ emitted is similar to the one of England. 
+We use a metric for measure the impact of a datacenter:
+$$PUE=\frac{Total FacilityPower}{ITEquipement power}$$ The datacenter efficiency is measured as DCiE and is the inverse of the PUE.
+
+![](https://i.imgur.com/UlzpM5r.png)
+
+### Datacenter Tiers
+
+![](https://i.imgur.com/GBccQBS.png)
+
