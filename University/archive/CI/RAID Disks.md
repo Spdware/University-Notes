@@ -90,6 +90,69 @@ Decreasing the Cost of Reliability
 - Can we achieve the same level of reliability without wasting so much capacity?
 -  Yes!
 - Use information coding techniques to build light-weight error recovery mechanisms
+We need to Decrease the cost of Reliability. 
 #### RAID 4
 ![](https://i.imgur.com/6ffuKdm.png)
 
+![](https://i.imgur.com/6sQG5ta.png)
+
+The idea is to not have an exact copy but store the important information and recompose the information from them in case of failure. We use a disk to store the parity(aggregation of the information coming from the other disks). 
+The bottleneck is created from the controller and the parity disk as every time I need to update the data I need to read and write on the parity disk. This bottleneck is particularly relevant if I need to do random writing(a lot of small files unrelated from each others) as this create serialization
+**Analysis of RAID 4**
+- Capacity: 
+	- N-1
+	- Space on the parity drive is lost
+- Reliability
+	- 1 drive can fail
+	- Massive performance degradation during partial outage
+- Sequential Read and write: (N – 1) * S
+	- Parallelization across all non-parity blocks in the stripe
+- Random Read: (N – 1) * R
+	- Reads parallelize over all but the parity drive
+- Random Write: R / 2
+	- Writes serialize due to the parity drive
+	- Each write requires 1 read and 1 write of the parity drive, thus R / 2
+#### RAID 5
+![](https://i.imgur.com/fIGZCCi.png)
+
+Writes are spread roughly evenly across all drives.
+This creates an overhead in all the disks but we are distributing the parity diminushing the gravity of the bottleneck(We improve from RAID 4). The difference is that accessing the parity doesn't mean accessing the same disk.
+**Analysis of Raid 5**
+- Capacity: same as RAID 4
+	- N – 1
+- Reliability: same as RAID 4
+	- 1 drive can fail
+	- Massive performance degradation during partial outage
+- Sequential Read and write: 
+	- (N – 1) * S same
+	- Parallelization across all non-parity blocks
+- Random Read: 
+	- N * R vs. (N – 1) * R
+	- Unlike RAID 4, reads parallelize over all drives
+- Random Write: 
+	- N / 4 * R vs. R / 2 for RAID 4
+	- Unlike RAID 4, writes parallelize over all drives
+	- Each write requires 2 reads and 2 write, hence N / 4
+In RAID 5 I can access all the disk in parallel and I don't need to use a disk for the storing of parity. 
+#### RAID 6
+Meant to survive two failures of disk. I will run and manage a bit more slower but I can survive two failure. I use two parity disk extending the survivability. The problem is that i don't really want two phisical parity disk, they are vistual and are distributed along all the disks. The cost is that I reduce my storing capacity to N-2(N+2 disks required). 
+Uses Solomon-Reeds codes with two redundancy schemes
+- (P+Q) distributed and independent
+High overhead for writes (computation of parities)
+- each write require 6 disk accesses due to the need to update both the P and Q parity blocks (slow writes)
+Minimum set of 4 data disks
+
+![](https://i.imgur.com/ZDGZpx5.png)
+
+
+![](https://i.imgur.com/yHzCTWL.png)
+
+### Other considerations
+Many RAID systems include a hot spare
+- An idle, unused disk installed in the system
+- If a drive fails, the array is immediately rebuilt using the hot spare
+RAID can be implemented in hardware or software
+- Hardware is faster and more reliable…
+- But, migrating a hardware RAID array to a different hardware controller almost never works
+- Software arrays are simpler to migrate and cheaper, but have worse performance and weaker reliability
+- Due to the consistent update problem
