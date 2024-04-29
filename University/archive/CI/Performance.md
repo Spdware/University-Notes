@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/5TYi2vb.png)
 
-We start from the datacenter structure, we know all the procedure parts; we need to talk about the virtualization. We know want to know the response time, the system performance. 
+We start from the datacenter structure, we know all the procedure parts; we need to talk about the virtualization. We now want to know the response time, the system performance. 
 Computer performance: the total effectiveness of a computer system, including throughput, individual response time and availability. Can be characterized by the amount of useful work accomplished by a computer system or computer network compared to the time and resources used.
 People not pay much attention to performance, they want to see functionality, but in some cases performance cannot be improved by only buying more hardware. You need some stratagem to improve performance without changing too much(need to use the right architecture to improve performance). Need different skill for quality verification.  
 Short time to market, i.e. quickly available products and infrastructures “seem” to be more attractive nowadays! Little information related to quality is usually available early in the
@@ -129,3 +129,10 @@ The main routing algorithms that we will consider are:
 
 ![](https://i.imgur.com/QRhGy4g.png)
 
+### Level of Detail
+
+![](https://i.imgur.com/zou3v21.png)
+
+In the modeling everything depends on the accuracy that you want to achieve(if not satisfied you open the box and look at the internal components).
+Proceed top-down, possibly detailing service centers as need arises
+Parameterizing the model is hard, so it is better to keep the complexity low
