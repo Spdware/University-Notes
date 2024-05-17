@@ -88,3 +88,41 @@ It is not much interesting to search an optimal stochastic policy as from it it 
 **Markovian/Non Markovian Policy**
 
 ![](https://i.imgur.com/GBZ9TGb.png)
+
+### Value Functions
+How can I evaluate the performance of my policy?
+To evaluate the quality of different policies I have to introduce the state-value function:
+$$V_{\pi}(s)\doteq \Bbb E_{\pi}[G_t|S_t=s]=\Bbb E_{\pi}[\sum_{k=0}^\infty \gamma^k R_{t+k+1}|S_t=s]$$
+It is the return value for what happens in average for the return on the status S. I am following policy pies for the expected return.
+The action value function give an extra degree of freedom in the form of giving the first action:
+$$Q_\pi(s,a)\doteq\Bbb E_\pi[G_t|S_t=s,A_t=a]=\Bbb E_\pi [\sum_{k=0}^\infty \gamma^k R_{t+k+1}|S_t=s,A_t=a]$$
+it represent the expected return from a given state s, when a given action a is selected and then policy $\pi$ is followed
+
+**Bellman Expecation Equation**
+The state-value function can again be decomposed into immediate reward plus discounted value of successor state: 
+$$V_\pi=\Bbb E_{\pi}[ R_{t+1}+\gamma V_\pi(S_{t+1})|S_t=s]=\sum_{a\in \cal A}\pi(a|a)(r(s,a)+\gamma\sum_{s'\in \cal S}p(s'|s,a)V_\pi(s'))$$
+The action-value function can be similarly decomposed: 
+$$Q_\pi(s,a)=\Bbb E_\pi[R_{t+1}+\gamma V_pi(S_{t+1})|S_t=s,A_t=a]$$
+$$=r(s,a)+\gamma\sum_{s'\in\cal S}p(s'|s,a)V_\pi(s')$$
+$$=r(s,a)+\gamma\sum_{s'\in\cal S}p(s'|s,a)\sum_{a'\in\cal A}\pi(a'|s')Q_\pi(s',a')$$
+This helps as it take out from the calculation the value due to the prediction of the next values. I can do just the first step.  
+The limitation comes to the scalability as for each new state we need to add a new equation to be calculated(Unfeasible for larger number of states).
+### Optimality
+We want to find the optimal policy(better performance than the others)
+
+![](https://i.imgur.com/ZRZh5Nk.png)
+
+For the evaluation I can use the value function. If two Values have some state with the same value we can choose either of them as they are equal in that specific case.
+There is always a optimal deterministic policy $\pi^*$ that is better or equal to all the others($\pi^*\ge\pi,\forall\pi$) So we can choose hte best policy for each state.
+
+![](https://i.imgur.com/8GdLtu2.png)
+
+We need to consider the optimal value function that is the function where in every state the Value function is optimal:
+$$V^*(s)\doteq max_\pi V_\pi(s), \forall s\in\cal S$$
+$$Q^*(s,a)\doteq max_\pi Q_\pi(s,a),\forall s\in\cal S,\forall a \in\cal A$$
+The value function is the same(I there are some divergences the optimal actions are related to two different optimal policies). All these policies will have the same value and action function. 
+$V^*,Q^*$ I cn write the Bellman Expectation Equation, but in this case $\pi^*$ is unknown but having a sum in respect of a choice on an action and knowing that $\pi^*$ is maximising the value of the functions.
+
+![](https://i.imgur.com/ZRGieBY.png)
+
+Using these formulas I can resolve the formula without knowing $\pi$ but remove the linear property of the equations(recursive and presence of max).
