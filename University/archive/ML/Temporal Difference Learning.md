@@ -24,8 +24,32 @@ TD works in continuing (non–terminating) environments MC only works for episod
 Bootstrapping: update involves an estimate
 - MC does not bootstrap(doesn't require the decomposition of the value function, not using Bellman equation, works on non Markovian problems)
 - DP bootstraps
-- TD bootstraps
+- TD bootstraps(When I train the algorithm my knowledge of my current value function I decompose it in two parts: immediate rewards and discounted value functions)
 Sampling: update does not involve an expected value
 - MC samples
-- DP does not sample
+- DP does not sample(Need to know the 1-step ahead procedure)
 - TD samples
+### SARSA
+It is the equivalent of Monte Carlo policy iteration in Temporal Difference Learning.
+
+![](https://i.imgur.com/Ua6ExSj.png)
+
+The idea is to leverage the idea of decomposing the expected return as immediate rewards plus discounted value function in the next time value. I take in consideration current value and the TD error(target minus current Q). SARSA derives from the elements in the update rule
+
+![](https://i.imgur.com/panZy80.png)
+
+SARSA is an on policy algorithm(the policy that I'm using to generate data is the same that I am trying to learn) and the policy is an $\epsilon$-greedy policy(still a good policy to resolve the problem with a non policy approach). 
+### Q-Learning
+
+![](https://i.imgur.com/0xFC1VQ.png)
+
+Use Bellman Optimality Equation to create the policy. The next action will depend on the policy I am using to explore the problem. 
+
+![](https://i.imgur.com/a3it9UB.png)
+
+The update rule now the best action according to my knowledge in the next state.
+The exploration is now free from the goodness of my results as they are independent but still lead to an optimal policy. Remind to not use random policy for exploration, try to make it limited and gives priority to the most promising moves.
+SARSA is better than Q-Learning when there are problems where the movement is equal in each part of the track than a limited patch where the movement is really penalised.
+SARSA might take into account the worst case scenario in its analysis.
+### Eligibility traces
+Instead of choosing TD(0) or Monte Carl I try to compute all the possible definition of target and average them. In practice by introducing the eligibility traces parameter that is waiting all the observed return while I am learning. 
