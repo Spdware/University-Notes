@@ -7,7 +7,7 @@ Then we passed to microservices where infrastructure moved to cloud providers, i
 ![](https://i.imgur.com/hQtRAnW.png)
 
 In the networking part you have to increase the interfaces and the capacity behind the interfaces to utilise everything at the maximum efficiency. 
-All the traffic i the front panel has to be transferred somewhere(You have to upgrade the front and the back together). 
+All the traffic in the front panel has to be transferred somewhere(You have to upgrade the front and the back together). 
 BIsection Bandwidth: bandwidth across the narrowest line that equally divides the cluster into two parts. It characterizes network capacity since randomly communicating processors must send data across the middle of the network.
 
 ![](https://i.imgur.com/oAVFMKl.png)

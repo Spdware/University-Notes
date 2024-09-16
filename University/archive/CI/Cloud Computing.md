@@ -9,7 +9,7 @@ In the cloud you can start/stop a VM/container in minutes and also predict the l
 ![](https://i.imgur.com/e3zNb6H.png)
 
 HW resources are partitioned and shared among multiple virtual machines. The virtual machine monitor (VMM) governs the access to the physical resources among running VMs. Performance isolation and security: if you want to devote a number of resources to a machine you can and each machine is separated from the other so if one crashes the others are unaffected. Different machine can runs different OS.
-Without virtualization every server runs an OS and a single application to avoid to crash other applications in case of failures, but this would lead to a waste of resources. With vartualization you can run multiple applications in a single machine using different VM. You can also port the VM to others machines copying the VM reducing the time required.
+Without virtualization every server runs an OS and a single application to avoid to crash other applications in case of failures, but this would lead to a waste of resources. With virtualization you can run multiple applications in a single machine using different VM. You can also port the VM to others machines copying the VM reducing the time required.
 Impact of Virtualization on the evolution of IT systems:
 - Sever consolidation
 - Cloud computing
@@ -63,13 +63,13 @@ For CaaS the communication is a vital component. The communication capability an
 
 Based on who owns the infrastructures.
 - Public is when you go to a provider and pay per use, you have fully customer self-service and accountability is e-commerce based. Service Level Agreements (SLAs) are advertized. Requests are accepted and resources granted via web services. Customers access resources remotely via the Internet. 
-- Private is when an organization owns a datacenter and runs only its applications. It's relevant for security. You also control the vrtualization software but it is not a cloud service so it doesn't have infinity scalability(if you don't pay for new machines)
+- Private is when an organization owns a datacenter and runs only its applications. It's relevant for security. You also control the virtualization software but it is not a cloud service so it doesn't have infinity scalability(if you don't pay for new machines)
 - Community is a single cloud managed by multiple organizations. Combining together several organizations allows economy of scale. Resources can be shared and used by one organization, while the others are not using them. 
-- Hybrids are a mix of all the others: the most frequent is the scheme that mix a public cloud with a private one called Cloud Bursting(I buy a quantity of servers and use them as a mini private server and when I it the limit of my resources I use a Public server). Another one is using a private cloud for storing the data and usng a public cloud for running my application. 
+- Hybrids are a mix of all the others: the most frequent is the scheme that mix a public cloud with a private one called Cloud Bursting(I buy a quantity of servers and use them as a mini private server and when I hit the limit of my resources I use a Public server). Another one is using a private cloud for storing the data and using a public cloud for running my application. 
 ### From Cloud to Edge and Fog Computing
 Nowadays Cloud is used for various things and the advantages are costs, software updates, performances, unlimited capacity....
 The key problem of these systems is that they are remote services and you need a good connection to the web otherwise your experience would be suboptimal or completely absent. There are also problems related to Lock-in and security on stored data.
-The solution is Fog/Edge computing: as today we can gather data from sensor and that sensors ca be closer to the data source we can use them to generate a solution.
+The solution is Fog/Edge computing: as today we can gather data from sensor and that sensors can be closer to the data source we can use them to generate a solution.
 
 ![](https://i.imgur.com/M4XOUif.png)
 
