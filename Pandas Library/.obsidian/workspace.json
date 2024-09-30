@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "5e3f6cdb8d8b97de",
+    "type": "split",
+    "children": [
+      {
+        "id": "9362d043d6784a46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95c2829e83c5fea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93902afc945c81ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "9642a26e732ad01a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "632f817adde7437f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec00e67cbf035e7c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "67e1c21e0dc8fe6b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ffc179928aed64c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0541c741c0dc6946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8feecb401b73b9bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "43863de2667249a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "29c3a47973065dff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf86eb44ea280399",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b95c2829e83c5fea",
+  "lastOpenFiles": [
+    "Index.md",
+    "Working within a DataFrame - Basic Function.md",
+    "Data Structures in Pandas Library.md",
+    "Pasted image 20231018181149.png"
+  ]
+}

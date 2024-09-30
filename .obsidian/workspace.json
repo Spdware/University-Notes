@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "049831a24d5a5422",
+    "type": "split",
+    "children": [
+      {
+        "id": "032af415d9332640",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c384259a61b336a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/archive/ML/Python Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6471b59efd7c34fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "31c80f06e4923eb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a18d61b62c63a00f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca909ec72e0d6af1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1abf4c257bbe70f1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0196ba545b882a88",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7b4c60149ae7595a",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec371320cffe1e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5496ca03357de595",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "University/archive/ML/Python Functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "705ec3ea12e6c046",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University/archive/ML/Python Functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8ce02726a02c20e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c8a75beada98c0fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "University/archive/ML/Python Functions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c384259a61b336a8",
+  "lastOpenFiles": [
+    "University/archive/Distributed Systems/Introduction.md",
+    "University/archive/ML/What is Machine Learning.md",
+    "University/archive/ML/Python Functions.md",
+    "University/archive/ML/Support Vector Machines.md",
+    "University/archive/ML/Multi-Armed Bandits.md",
+    "University/archive/ML/Montecarlo Methods.md",
+    "University/archive/ML/Model Evaluation, Selection and  Ensembles.md",
+    "University/archive/ML/Markov Decision Processes.md",
+    "University/archive/ML/Kernel Methods.md",
+    "University/archive/ML/Introduction to Supervised Learning.md",
+    "University/archive/ML/Dynamic Programming.md",
+    "University/archive/ML/Computational Learning Theory.md",
+    "University/archive/ML/Classification.md",
+    "University/archive/ML/Challenges and Limitation of Linear Regression.md",
+    "University/archive/ML/03.Model Evaluation,Selection and Ensembles.md",
+    "University/archive/ML/02.Classification.md",
+    "University/archive/ML/01.Linear Models for Regression.md",
+    "University/archive/ACA/03.Performance and Cost.md",
+    "University/archive/ACA/02.MIPS Pipelining.md",
+    "University/archive/ACA/01.Introduction.md",
+    "University/archive/BIS 1/g.Advanced Business Analytics-Business case Sell-Out.md",
+    "University/archive/BIS 1/f.Introduction to Advanced Business Analytics.md",
+    "University/archive/BIS 1/e.Data Analytics in Consulting-Generative AI, LLM, RAG Architecture and Multimodal AI.md",
+    "University/archive/BIS 1/d.Data Analytics in Consulting-Target Reply.md",
+    "University/archive/BIS 1/c.Data Architecture and Data Structures.md",
+    "University/archive/BIS 1/b.Data Analytics in Consulting- Growth Path in consulting.md",
+    "Pasted image 20240326153309.png",
+    "University/archive/CI",
+    "Pasted image 20240221105333.png",
+    "Pasted image 20240221105255.png",
+    "Pasted image 20240221104916.png",
+    "Pasted image 20240221111409.png",
+    "Pasted image 20240221112155.png",
+    "Pasted image 20240221112315.png",
+    "Pasted image 20240221112748.png",
+    "Pasted image 20240221112813.png",
+    "Pasted image 20240221114446.png",
+    "University/archive/ML",
+    "University/archive/ACA",
+    "ACA",
+    "University/archive/BIS 1",
+    "Pandas Library",
+    "SFC.pdf",
+    "Reti di Petri.pdf",
+    "PLC.pdf",
+    "Modellistica.pdf"
+  ]
+}
