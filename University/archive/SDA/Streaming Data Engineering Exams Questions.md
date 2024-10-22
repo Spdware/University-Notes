@@ -71,11 +71,8 @@
 
 # Exercises on EPL patterns
 ## Suppose you receive the following stream of events: A1@0,C1@1,B1@2,B2@3,A2@4,B3@5,A3@6,B4@10.
-• Note that A3@6 denotes an event of type A identified by the number 3 that 
-is received at time 6.
-• Given the patter: 
-every A -> (B and not C where timer:within(3 sec))
-• Translate the pattern into an English sentence
-• Which are the events that trigger the matching? Why?
-• Which are the events that may trigger the matching but are excluded by the 
-semantics of the every and the where timer:within clauses? Why?
+## Note that A3@6 denotes an event of type A identified by the number 3 that is received at time 6.
+## Given the patter: every A -> (B and not C where timer:within(3 sec))
+## Translate the pattern into an English sentence
+## Which are the events that trigger the matching? Why?
+## Which are the events that may trigger the matching but are excluded by the semantics of the every and the where timer:within clauses? Why?
