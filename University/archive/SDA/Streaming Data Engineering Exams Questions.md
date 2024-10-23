@@ -1,7 +1,13 @@
 # Questions to test the breadth of your knowledge
-1. Which are the four approaches to tame velocity? List them all before comparing and contrasting two of them
+### 1. Which are the four approaches to tame velocity? List them all before comparing and contrasting two of them
 
-2. Which are the three time-models we introduced? List them all before comparing and contrasting two of them
+The four approaches that we have seen to tame velocity are:
+- Event-Based System tame myriads of tiny flows that you can collect
+- Data Stream Management Systems tame continuous massive flows that you cannot stop 
+- Complex Event Processing tame continuous numerous flows that can turn into a torrent
+- Event Driven Architecture tame the forming of an immense delta made of myriads of flows of any size and speed
+
+## 2. Which are the three time-models we introduced? List them all before comparing and contrasting two of them
 
 3. What are the basic types of windows? List them all and describe the behavior of at least two of them
 
