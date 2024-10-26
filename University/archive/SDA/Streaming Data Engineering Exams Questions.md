@@ -54,7 +54,7 @@ System view:
 Physical view:
 - Topics are partitioned across brokers
 - Producers shard messages over the partitions of a certain topic
-- Typically, hash partitioning, based on the message’s key, determines the partition a message is assigned to(If the key is null, then roundrobin partitioning is adopted) 
+- Typically, hash partitioning, based on the message’s key, determines the partition a message is assigned to(If the key is null, then roundrobin partitioning is adopted) 
 - Each Partition is stored on the Broker’s disk as one or more log files
 - Each message in the log is identified by its offset number 
 - Messages are always appended
