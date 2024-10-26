@@ -6,21 +6,25 @@ The four approaches that we have seen to tame velocity are:
 - Data Stream Management Systems tame continuous massive flows that you cannot stop 
 - Complex Event Processing tame continuous numerous flows that can turn into a torrent
 - Event Driven Architecture tame the forming of an immense delta made of myriads of flows of any size and speed
+
 Complex Event Processing takes numerous data streams and compact them in a single stream. The problem is that you need to distinguish the various data type that can be heterogeneous. Event Driven Architecture takes a single stream and divide it in numerous stream of various forms and dimensions. The problem that can derive from that is how we decide which data go in which stream.
 ### 2. Which are the three time-models we introduced? List them all before comparing and contrasting two of them
 - Stream-only Time Model
 - Absolute Time Model
 - Interval-Based Time Model
+
 Stream-only Time Model can exploit the order to perform queries but we cannot have queries taking into account time. The Absolute Time Model correlate the events in the stream to the time so we can compute queries over an interval of time but cannot take in consideration more than one interval at a time. Both have the answer changing over time and once used the events can be forgotten. 
 > TODO chiedere chiarimenti su seconda parte di domanda
 ### 3. What are the basic types of windows? List them all and describe the behaviour of at least two of them
 - Tumpling(size): each session sussede the others without time betweenm them
 - Hopping(size and stride): two windows can be overlapped
 - Session(gap): a window declare a portion of time and look for the events that happens in them
+
 If we consider a stream-only time model, we define physical windows
 - E.g., tumbling window: every 10 events 
 - E.g., hopping window: the last 10 events every 5 events
 - i.e., session windows cannot be specified
+
 If we consider an absolute time model, we define logical windows
 - E.g., tumbling window: every 10 minutes 
 - E.g., hopping window: the last 10 minutes every 5 minutes
@@ -41,10 +45,12 @@ Conceptual view:
 - Topics are streams of messages
 - A message is a key-value pair + metadata
 - A kafka cluster manages topics(no content-based routing)
+
 System view:
 - Brokers are the main storage and messaging components of the Kafka cluster 
 - Producers publish messages on brokers
 - Consumers subscribe to brokers to receive messages
+
 Physical view:
 - Topics are partitioned across brokers
 - Producers shard messages over the partitions of a certain topic
@@ -54,6 +60,7 @@ Physical view:
 - Messages are always appended
 - Consumers can consume from different offset
 - Brokers are single thread to guarantee  consistency
+
 An example can be represented by article writers that produce articles based on macroarguments(Publishers publishing messages on topics) and store them on websites(brokers that divide the messages in their partition based on topics) and then readers ask the website for articles on specific arguments(Consumer receiving messages only on the topics they are subscribed to)
 > TODO chiedere se è un buon esempio
 ### 8. Illustrate the programming model of spark structured streaming at the logical and physical level. Illustrate them using an example.
