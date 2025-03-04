@@ -9,6 +9,10 @@ Currently notes available:
 - Model Identification and Data Analysis
 - Machine Learning
 - Business Information Systems 1
+- Business Information System 2
 - Data Bases 2
 - Distributed Systems
 - Performance Evaluation and Application
+- Computer Security
+- Internet of Things
+
