@@ -68,7 +68,7 @@ Beware: The order of the operands is **different**. We will use the Intel syntax
 
 ![](https://i.imgur.com/eg9K6bn.png)
 
-Memory to memory is an invalid combination(except in some instructions, such as movs(move from string to string)).
+Memory to memory is an invalid combination(except in some instructions, such as movs(move from string to string).
 Beware: in x86, instructions have variable length.
 ### Basic instructions
 **Data Transfer**: mov, push, pop, xchg, lea
