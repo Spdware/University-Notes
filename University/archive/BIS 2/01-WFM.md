@@ -15,7 +15,7 @@ Different types of maintenance, we talk about the ones after the 2005, maintenan
 - Routine maintenance: sort of knows that there is something that needs to be changed/looked up periodically. It prevents issues but requires a mentality of preventing a problem instead of reacting to a problem. It can be scheduled.
 - Emergency maintenance: maintenance done when there is a problem that needs to be resolved. Asynchronous, very urgent. You don't know what you are going to find and can think ahead of time for a solution. Usually you go two times: the first to know what is wrong and then the second time to fix the problem(after some time as you need to prepare a plan to solve the issues). 
 Companies also make money on the routine maintenance planning the failing of components and sell/send products to do maintenance ahead of time.
-Usually emergency maintenance is not profitable. Can avoid emergency maintenance by outsourcing the maintenance. You can balance the rateo of routine and emergency maintenance. There is competition for routine maintenance as it can be done by different companies and it is profitable, thing that emergency is not.
+Usually emergency maintenance is not profitable. Can avoid emergency maintenance by outsourcing the maintenance. You can balance the ratio of routine and emergency maintenance. There is competition for routine maintenance as it can be done by different companies and it is profitable, thing that emergency is not.
 Outsourcing maintenance can be risky:
 - Non-effective maintenance has a negative impact on the company’s brand equity.
 - Legal issues/liability for inefficient emergency management.
@@ -28,7 +28,7 @@ loyalty (reduction of customer turnover).
 Customer loyalty is not easy to achieve. Customer loyalty is tied to emergency maintenance more than it is to routine maintenance.
 Customers may decide not to buy an ordinary maintenance service, but need an
 emergency maintenance service anyway.
-The time when you have an issue is the best time to make a customer loyal: if you are efficient the costumer will remember you. Also maintenancer can propose routine maintenance instead of emergency as it is spreading risk and cost on the year, but is tricky as the cost need to be balanced to also include the emergency one.
+The time when you have an issue is the best time to make a customer loyal: if you are efficient the costumer will remember you. Also maintenance guys can propose routine maintenance subscriptions instead of relying only on emergency as it spreads risks and costs on the year, but is tricky as the cost need to be balanced to also include the emergency one that could still happens.
 ### The worst maintenance process (no ERP)
 ![](https://i.imgur.com/vZULY7j.png)
 
