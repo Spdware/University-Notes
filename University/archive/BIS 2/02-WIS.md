@@ -46,7 +46,7 @@ Presentation of company
 Product information:
 - (Product catalog in pdf)
 - Multimedia online catalog
-• Contacts:
+Contacts:
 - Call center
 - Company sites, agencies, etc.
 - Map
@@ -99,7 +99,63 @@ Common within districts for SMEs.
 Standard in mobile app market (App store, Play store).
 Yoox is a well known aggregator for fashion as it understand the dynamics of fashion selling. Tries to promote local brands as they can help in not spending too much time on search engines.
 ## Online auctions
-**Ascending** (or English) auction. The vendor sets a minimum price. The product is sold to the last highest offer (with timeout). The price only goes up(dynamic marketing). Example of applying is art(need to convince the market that the resource is scarce and/or rare).
-**Descending** (or Dutch) auction: The vendor sets a maximum price that is decreased by a fixed amount at regular time intervals down to a minimum price. The product is sold to the first client offering to buy at the current price.
-**Vickrey auction**: all customers make an undisclosed offer within a given time frame. The product is sold to the second highest offer.
+Give a benchmark to the market, can help also a price differentiate strategy(depending on how much they are selling and how the company is doing in the market). Clients have a confidence interval for the price they expect(can play in this range).
+Non perfect market conditions, the price of the product is not known at the start, the customer behaviour is not rational as the product is usually scarce/unique/special so the value usually is higher than the one of the product itself(dynamic pricing). Pushed to pay the higher price possible. 
+**Ascending** (or English) auction. The vendor sets a minimum price. The product is sold to the last highest offer (with timeout). The price only goes up(dynamic marketing). Example of applying is art(need to convince the market that the resource is scarce and/or rare). 
+**Descending** (or Dutch) auction: The vendor sets a maximum price that is decreased by a fixed amount at regular time intervals down to a minimum price. The product is sold to the first client offering to buy at the current price. Different mechanism but still you need to considerate when stopping the descending price to beat the others. Discounts can acts as descending auction of some sort(no time pressure, but the idea is similar, also in house selling you start with an high price and then lower it).
+**Vickrey auction**: all customers make an undisclosed offer within a given time frame. The product is sold to the second highest offer. Always used by public administration, but sometimes also private company use it to see the prices that the suppliers may want to offers(this done also to see if the current supplier is still convenient). The buyer has a need(very simple or complex, they need to write down a document specifying some characteristic of the wanted product(ERP), this document could be highly specific or have some vague guideline depending on how much the company knows about the wanted product). Usually there is a difference between the technical part of the auction and the financial part of the auctions(could specify budget, payment conditions, penalties, level of service,...).  
+
 When customer can choose based on fixed price we are in ideal market as customer trust that the price coincide with quality.
+At the end of the negotiation you have a contract derived from the discussion done after the winning of the auction. The requirements could changes in a minimum part, but pay attention to not change too much otherwise the client would be scared.
+**Dumping**: behaviour where the technical document contains everything the company can do  and the financial document offers an heavy discount. This is done to buy out the market share. Done a lot in SW as the client can be locked in and then increase the price later when the client wouldn't bother to change. This lead to the auction to choose the second best offer to avoid this behaviour as companies need to balance price and services to be competitive but not so low to feel cheating(this is not done a lot as it is not the best solution).
+Private corporation apply Vickrey auction with their suppliers when they aren't 100% satisfied with them. The company could also do this to stimulate the supplier to be more financial efficient. Usually the old supplier is the one that wins as this mechanism is only used to rebump the supplier, so other suppliers participate in these behaviour to gain favour with the company in case other non Vickrey auctions can happens. 
+## eCommerce sites: advanced functionalities
+A website could be only information(easy website, not useful for ecommerce).
+Advanced features:
+- Product configuration
+- Pricing: sum of the price of the products or there is a request of the needs for the product and then the price is created taking these needs in consideration. This is custom pricing. Complex pricing usually include a Q&A session and a negotiation process.
+- Online orders (digital signature vs. login), can check the status of the order(depending on the quality of the checking process the granularity and accuracy can vary). Can also access transaction logs. 
+- Payment
+	1. Credit based (credit cards)
+	 2. Debit based (Paypal)
+	 3. Token based (Bitcoins)
+- Order status
+- Transaction log
+- Online services
+- Post sale services
+- Customer profiling: use the information to customize the recommendation to the customer, the outcome of the recommendation systems goes in a CRM and reach the client on a multiple channels, it is fully automated.
+## Recommendation systems
+**Collaborative filtering**: 
+ - Recommendations are based on each customer’s past purchasing behaviour
+- Recommendations are based on past purchasing behaviour of customer segments (that is subsets of customers similar by either static characteristics from catalog information, such as age, location, etc., or dynamic behavioural characteristics)
+**Content based**
+- Recommendations are based on the similarity of products or product categories (up-selling)
+- Recommendations are based on the complementarity of products or product  categories (cross-selling)
+**Hybrid**: a combination of collaborative filtering and content based
+Recommendation strategies should be consistent with business objectives:
+- Increasing sales for low-turnover or high-stock products
+- Promote new products
+- Prevent churn
+- ...
+Based on upsell and crossell. 
+- Upselling: buy something from a company and then rebuy from the same company the same product at an higher price. Usually is done by giving an better version of the product. Clients usually doesn't always want to spend as much as possible on some products. If a client is already inclined to spend more you can offer higher quality products at a similar higher price and the client usually will buy these products
+- Crosselling: if the client already buy an high quality product you can offer them high quality products that can match/relate to the first product at a discount to incentive the client to buy both of them
+Usually you have to choose the right recommendation system to enhance your products market. For example Esselunga cannot use a mass/mid market recommendation to sell wine otherwise you end up doing downselling(really bad).
+Usually crosselling is done more as it can better enhance the selling as the expected customer behaviour is to buy what they already would buy and then add the recommended product.
+Recommendation system should lead the customer to change with the company, otherwise the customer will loose interest in the company products and this lead to loss in revenues. 
+### Similar product recommendations
+Webshop visitors often abandon the site when an item is out of stock, not in their size or it is not exactly what they were looking for. Through computer vision it is possible to automatically suggest similar items when a customer is taking a look
+at a specific garment or accessory, reducing the chances of abandonment.
+Web is trying to design product around the customers to enable a better selling. 
+### Recommendation engines (based on customer segmentation)
+Retailers’ goal has become to personalize merchandising, depending on their customers’ taste. This is the main reason why AI-powered recommendation engines are quickly gaining ground in the eCommerce field. They provide personalized product recommendations based on user behavioural data and are often presented in the form of “You may also buy this".
+### Virtual assistants, chatbots
+Chatbots or virtual assistants are virtual machines that recommend garme
+nts and accessories that best suit a specific customer via chat as if they were actual shopping assistants working around-the-clock. These services are fed with data and learn from each customer interaction to increase the buying rate.
+### Visual Search
+Visual search aims at enabling consumers to take a picture of a product in order to search for it online. With the use of computer vision and image recognition, visual search solutions match the image uploaded by the consumer and with the retailer’s closest image in their catalog.
+### Virtual personal stylists (body types)
+The same piece of clothing usually fits certain body types differently. This is the
+main reason why consumers find it hard to be confident that the apparel they buy online will suit them. In fact, retailers in the US report a return rate of between 20%
+and 40% for online sales, poor fit being the number one reason. Some companies like Stitch Fix are starting to use algorithms that learn what suits each person best
+according to their body type. Customers need to fill out their profile then the system can suggest the best product for them.
