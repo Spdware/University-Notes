@@ -104,7 +104,6 @@ Non perfect market conditions, the price of the product is not known at the star
 **Ascending** (or English) auction. The vendor sets a minimum price. The product is sold to the last highest offer (with timeout). The price only goes up(dynamic marketing). Example of applying is art(need to convince the market that the resource is scarce and/or rare). 
 **Descending** (or Dutch) auction: The vendor sets a maximum price that is decreased by a fixed amount at regular time intervals down to a minimum price. The product is sold to the first client offering to buy at the current price. Different mechanism but still you need to considerate when stopping the descending price to beat the others. Discounts can acts as descending auction of some sort(no time pressure, but the idea is similar, also in house selling you start with an high price and then lower it).
 **Vickrey auction**: all customers make an undisclosed offer within a given time frame. The product is sold to the second highest offer. Always used by public administration, but sometimes also private company use it to see the prices that the suppliers may want to offers(this done also to see if the current supplier is still convenient). The buyer has a need(very simple or complex, they need to write down a document specifying some characteristic of the wanted product(ERP), this document could be highly specific or have some vague guideline depending on how much the company knows about the wanted product). Usually there is a difference between the technical part of the auction and the financial part of the auctions(could specify budget, payment conditions, penalties, level of service,...).  
-
 When customer can choose based on fixed price we are in ideal market as customer trust that the price coincide with quality.
 At the end of the negotiation you have a contract derived from the discussion done after the winning of the auction. The requirements could changes in a minimum part, but pay attention to not change too much otherwise the client would be scared.
 **Dumping**: behaviour where the technical document contains everything the company can do  and the financial document offers an heavy discount. This is done to buy out the market share. Done a lot in SW as the client can be locked in and then increase the price later when the client wouldn't bother to change. This lead to the auction to choose the second best offer to avoid this behaviour as companies need to balance price and services to be competitive but not so low to feel cheating(this is not done a lot as it is not the best solution).
@@ -117,8 +116,8 @@ Advanced features:
 - Online orders (digital signature vs. login), can check the status of the order(depending on the quality of the checking process the granularity and accuracy can vary). Can also access transaction logs. 
 - Payment
 	1. Credit based (credit cards)
-	 2. Debit based (Paypal)
-	 3. Token based (Bitcoins)
+	2.  Debit based (Paypal)
+	3. Token based (Bitcoins)
 - Order status
 - Transaction log
 - Online services
@@ -127,8 +126,8 @@ Advanced features:
 ## Recommendation systems
 **Collaborative filtering**: 
  - Recommendations are based on each customer’s past purchasing behaviour
-- Recommendations are based on past purchasing behaviour of customer segments (that is subsets of customers similar by either static characteristics from catalog information, such as age, location, etc., or dynamic behavioural characteristics)
-**Content based**
+- Recommendations are based on past purchasing behaviour of customer segments (that is subsets of customers similar by either static characteristics from catalogue information, such as age, location, etc., or dynamic behavioural characteristics)
+	**Content based**
 - Recommendations are based on the similarity of products or product categories (up-selling)
 - Recommendations are based on the complementarity of products or product  categories (cross-selling)
 **Hybrid**: a combination of collaborative filtering and content based
@@ -138,7 +137,7 @@ Recommendation strategies should be consistent with business objectives:
 - Prevent churn
 - ...
 Based on upsell and crossell. 
-- Upselling: buy something from a company and then rebuy from the same company the same product at an higher price. Usually is done by giving an better version of the product. Clients usually doesn't always want to spend as much as possible on some products. If a client is already inclined to spend more you can offer higher quality products at a similar higher price and the client usually will buy these products
+- Upselling: buy something from a company and then rebuy from the same company the same product at an higher price. Usually is done by giving a better version of the product. Clients usually doesn't always want to spend as little as possible on some products. If a client is already inclined to spend more you can offer higher quality products at a similar higher price and the client usually will buy these products
 - Crosselling: if the client already buy an high quality product you can offer them high quality products that can match/relate to the first product at a discount to incentive the client to buy both of them
 Usually you have to choose the right recommendation system to enhance your products market. For example Esselunga cannot use a mass/mid market recommendation to sell wine otherwise you end up doing downselling(really bad).
 Usually crosselling is done more as it can better enhance the selling as the expected customer behaviour is to buy what they already would buy and then add the recommended product.
@@ -159,3 +158,29 @@ The same piece of clothing usually fits certain body types differently. This is 
 main reason why consumers find it hard to be confident that the apparel they buy online will suit them. In fact, retailers in the US report a return rate of between 20%
 and 40% for online sales, poor fit being the number one reason. Some companies like Stitch Fix are starting to use algorithms that learn what suits each person best
 according to their body type. Customers need to fill out their profile then the system can suggest the best product for them.
+## Supply chain management: definition
+Software supporting SCM coordinate and integrate all activites along a value chain involving multiple companies, from the downstream company that receives orders to the upstream suppliers working on base resources and materials.
+Fundamental benefits: cost reductions, service level improvement, flexibility.
+Difficulties to integrate information systems between companies.
+Possibly there is the need to insert data manually inside the system and this can be a problem for someone, this responsibility can be relegated to the customer as it can be a benefit but it is also a barrier to access the service(Buying stocks is not done in self service mode, inserting data to buy something online is done in self service money).
+It is a matter of language as, for example, company A has an ERP and company B has another ERP. Company A has in the ERP some cloth material with their own coding. Usually they are Codici Parlanti, identifying every characteristic of the  product(hash of the feature). For the sake of shortness the ID is set as Codice Parlante. 
+Effectiveness is standardization, error limitation, cost limitation. But if having a standard naming convention is difficult we can just have customers doing things in self service mode and then put these data through an integration process so we can do the order in our system with our coding.
+This cannot be done by a small company as you are pushing the supplier to go through the pain of adapting to your own standard and being small you don't have enough contractual power. Sometimes suppliers are big enough that the customers adapt to their standard.
+Strong players will set the standard and the weak players will adapt to the standard.
+### SCM: objectives
+![](https://i.imgur.com/FNZNWVl.png)
+
+Transaction processes can be automated in a fully automated processes. To adapt the supply and demand we should adapt to the curve to satisfy the demand. If you overestimate demand you waste money on products that will no sell. The issues is that if I underestimate I need supplier to be fast and respond quickly to my demand and if I overestimate I do not want to pay for what I ordered(cancelling order). This can be done only with planning ahead. 
+Extend the core ERP incorporating the process of your supplier. The value proposition is much stronger and incorporate the supplier in your planning to enhance your flexibility even if the supplier is not flexible.
+### SCM: relations among companies
+![](https://i.imgur.com/piXmO1z.png)
+
+Until you place an order in an application, after picking the products in a drop down menu, you can have errors in data inputting.
+### SCM: continuous learning process
+![](https://i.imgur.com/RDyJe9N.png)
+
+You want that the production is planned on your planning, even if it is done by a supplier that also have multiple customers. If a supplier is good you want to have them work for you only. Supply manager is useful for the big players as they can incorporate the supplier in their processes and the customers will adapt to their standard. But a big player should use multiple supplier, as small player usually are more adaptable and works more armonously.
+The first step is spend analysis. We start thinking which supplier we optimize first. This is such that if we order the products by decreasing yearly spending through a Pareto curve. You have a great part of product that cost little, meanwhile you have few product that cost a lot and there is where you should focus your energy first. 
+So you negotiate with the supplier to have better prices, even change supplier to have better price, inject them in your processes and see how it goes, starting evaluating your supplier. The performance of a supplier are time of satisfaction of the order(the shorter the better), cost(the lower the better), quality(the better is a product, not needing return or maintenance the better), effectiveness(depends on what they sell, keep track of maintenance and the spare parts used and track the supplier that delivered them, usually starting from the parts with the higher cost on the goods).
+Requirements management is the passage where we handle relationships with suppliers not limited to the transaction but we also start the cooperation from research and development. The supplier gains the fact that is hooked to a growing trend. If you have to change supplier you have to teach the same lessons to the new supplier. But we want to have the supplier ready more quickly, so you have training programs to teach the new suppliers how to behave even before starting to effectively work with you. With a new company is easier to adapt as there is flexibility and adaptation and the reaching of a goal may be faster than a big corporation, this is a good way to let companies know you.
+It is not only a question of Software, you need to change the behaviour of your company and of your suppliers.
