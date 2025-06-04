@@ -1,4 +1,4 @@
-ar# Questions to test the breadth of your TSA knowledge
+# Questions to test the breadth of your TSA knowledge
 ### What is the i.i.d. assumption? How do SML and TSA allow the loosening of part of it?
 The i.i.d. assumption implies that data are independent and identically distributed, so each data point is independent from the others belonging to the same distribution. SMA allow the loosening of the i.i.d. data assumption detecting data drift and changing the data distribution learning to the new setting, but forgetting what it learned before. TSA assumes that data aren't i.i.d. and works on the learning of the model and forecasting the new data points
 ### Which characteristics can a non-stationary time series have? Illustrate it with an example.
