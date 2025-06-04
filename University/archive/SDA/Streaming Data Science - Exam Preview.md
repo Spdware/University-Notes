@@ -1,4 +1,4 @@
-# Questions to test the breadth of your TSA knowledge
+ar# Questions to test the breadth of your TSA knowledge
 ### What is the i.i.d. assumption? How do SML and TSA allow the loosening of part of it?
 The i.i.d. assumption implies that data are independent and identically distributed, so each data point is independent from the others belonging to the same distribution. SMA allow the loosening of the i.i.d. data assumption detecting data drift and changing the data distribution learning to the new setting, but forgetting what it learned before. TSA assumes that data aren't i.i.d. and works on the learning of the model and forecasting the new data points
 ### Which characteristics can a non-stationary time series have? Illustrate it with an example.
@@ -60,7 +60,7 @@ The SARIMAX model contains all the components of the SARIMA model(_p_ non season
 - MAE can be used for forecasting the wild animal population inside the park of Monza denoting if there is a species that has an increase in population bigger than the others. It isn't beneficial for the forecast of the attendee to a Formula1 events as a big error can greatly impact on the transportation system of the city.
 - MAPE can be beneficial when we wants to compare the improvements of different software suites in a company. It isn't beneficial for predicting the storage capacities of a company as there could be values equal to zero.
 - MSE is beneficial for the estimation of the increase of the value of a stock. It is not useful when we wants to estimate the value of a building as $\$^2$ doesn't make sense.
-- RMSE can be used for evaluating new medical treatment. It cannot be used in the prediction of the winner of SerieA winner as there could be a promoted team that do really well.  
+- RMSE can be used for evaluating new medical treatment. It cannot be used in the prediction of the winner of SerieA as there could be a promoted team that do really well.  
 ### Describe how Prophet works and what each of its key components does. Highlight at least three advantages of using Prophet in time series forecasting.
 Prophet is essentially “framing the forecasting problem as a curve-fitting exercise” rather than looking explicitly at the time based dependence of each observation.
 In practice the Prophet procedure is an additive regression model with the following main components:
@@ -126,8 +126,8 @@ It is important to detect it because it will decrease drastically the accuracy o
 $$p(y|X_t)=\frac{p(y)p(X_t|y)}{p(X_t)}$$
 A concept drift is a sudden change in the properties of the target variables that can degrade the model’s performance. It can result from changes in: 
 1. The probability of observing a class. 
-2. 2.The conditional probability of an item given a class. 
-3. 3.The probability that an item belongs to a specific class (real concept drift), which affects the decision boundary and requires model adaptation.
+2. The conditional probability of an item given a class. 
+3. The probability that an item belongs to a specific class (real concept drift), which affects the decision boundary and requires model adaptation.
 Drift speed influences detection difficulty: Faster changes are easier to detect, while gradual or incremental changes are more challenging. Drift types include sudden, gradual, incremental, recurring, and blips (outlier-like phenomena). Detecting concept drift is essential because it determines whether the current model remains effective. Unlike anomaly detection, where the model remains unchanged, concept drift detection prompts model adaptation if needed to maintain performance.
 ### How can you classify a concept drift with respect to the speed of change? Illustrate the difference with an example for each type.
 - Abrupt/Sudden drift: the drift happens instantly. It is like in a fabric that produces triangles suddenly starts to produce circles
@@ -147,7 +147,7 @@ TSA models learn from time series in the past how to forecast future behaviours,
 ### Which are the concept drift detectors that monitor the error rate? Illustrate how one of them works
 They are the Drift Detection Method (DDM), Early Drift Detection Method
 (EDDM), Adaptive sliding WINdow(ADWIN).
-The Early Drift Detection Method(EDDM) works considering the distance between two errors classification instead of considering only the number of errors. While the learning method is learning, it will improve the predictions and the distance between two errors will increase. When a drift occurs, the distance between two errors will decrease. Compute the average distance between 2 errors and its std, and look for outliers in the tails.
+The Early Drift Detection Method(EDDM) works considering the distance between two errors classification instead of considering only the number of errors. While the learning method is operating, it will improve the predictions and the distance between two errors will increase. When a drift occurs, the distance between two errors will decrease. Compute the average distance between 2 errors and its std, and look for outliers in the tails.
 ### Which are the data drift detectors? Illustrate how one of them works.
 The data drift detectors are the Cumulative SUM Test (CUSUM) and Page Hinkley Test. 
 The Page Hinkley Test works detecting a change in the average of a Gaussian signal and monitors the difference between $g_t$ and $𝐺_t$. Its accuracy depends on the choice of parameters v and h. 
@@ -200,7 +200,7 @@ Reuse of Data: In SML, data points are discarded after a single pass. In CL, exp
 
 ### What is the difference between the definitions of concept drift in SML and CL? When is avoiding forgetting meaningful? Illustrate it with an example.
 SML Concept Drift: Defined as changes in the data distribution, feature-target relationships, or class boundaries over time. Focuses on adapting to real drifts, where class boundaries change, making past knowledge irrelevant. Prioritizes quick adaptation and current performance, often disregarding past concepts.
-CL Concept Drift: Represents the introduction of new tasks, typically involving virtual drifts (new features or related problems). Aims to retain knowledge from past tasks while CL Concept Drift: Represents the introduction of new tasks, typically involving virtual drifts (new features or related problems). Aims to retain knowledge from past tasks while learning new ones. Balances learning stability and plasticity to avoid forgetting relevant past knowledge.
+CL Concept Drift: Represents the introduction of new tasks, typically involving virtual drifts (new features or related problems). Aims to retain knowledge from past tasks while learning new ones. Balances learning stability and plasticity to avoid forgetting relevant past knowledge.
 In SML if we are learning how to recognize dogs and suddenly we start to receive images of cats the model will start to recognize cats forgetting how to recognize dogs. In CL if we are learning how to recognize dogs and suddenly receive cats images the model will start learning how to recognize cats STILL remembering how to recognize dogs.
 ### What are the three main scenarios in Continual Learning?
 1. Incremental Task Learning: Tasks are distinct, with task labels available during training and testing. The model uses task labels to focus on specific parameters for each task. Goal: Retain performance on previous tasks while learning new ones.

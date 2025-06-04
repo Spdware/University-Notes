@@ -101,3 +101,29 @@ APPLICATION AREAS
 - Creation ad distribution of high quality personalized content → WARNING: costs
 - Integration of marketing automation with company systems (customers data for targeting)
 - Need for advance planning
+## Context
+Wants to maintain the customer taking in consideration the situation and the behaviour of the customer. 
+Journey start from the first contact with the customer and continue until the transaction with the customer is completed. Also if the transaction contained some sort of buying the receipt and parcel for transportation should be sent immediately after to not rise suspicion and do not lead away the customer.
+# Measurement Strategy
+Based in the execution and control phase of the marketing process. 
+Nowadays the measurement process is complex as there are a lot of channels that are integrated and all give information for our process. Need tools that let us measure the complete picture. 
+## Measurement process
+Select metrics about all the channels. Should choose metrics that let you monitor all parts of the funnel and also some metrics that let us have an high level overview of the system to also have an idea of the end user of the system.
+## E-Commerce Funnel
+E-commerce is an easy way to measure the efficacy of your campaigns as it also contains the monetary transaction between the customer and the company, can measure how much our campaigns are efficient. 
+The e-commerce funnel needs to contain the traffic generation, conversion optimization, make sure that people can go to the site and arrive at the checkout and also make sure the customers will return to the site(loyalty & retention) need to see the abandonment of the cart. Usually companies focuses on the first two as they are easier to monitor but should look also at the third as it shows how much customers will return to them. 
+# Attribution Models
+Present in the execution and control mode. The dataset that use are really large, get from the single interaction of the users with the website so this let us have different system with different technological parts. 
+Used to attribute a commercial(purchase,...) and try to see which channel leads to the conversion of the customer. These models only works on digital data. Two types of attribution models:
+- Rule based models: based on rules to say which channel has the attribution of the commercial. Most common model is the Last Touch model(very easy and straightforward, attribute the conversion to the last channel, but this simplifies a lot reality, underestimate the contribution of the higher parts of the funnel)
+- Algorithmic models: models that use mathematics, statistics and sometimes machine learning techniques to analyze and attribute the conversion
+The second type is the better one as it let us see the effect of all the various part of our campaign and attribute the right weight to each of them.
+## Attribution Model
+Algorithmic model based on Markov Chains.
+Requires mapping the touch points and based on removal effects: if you remove something you can see the effects of the part on our system. 
+Some issues about cookies, as Google said that it will stop tracking them the attribution models are loosing precision as they based their functioning on them.
+# Introduction to MMM
+Marketing Mix Modeling is a statistical technique used to estimate the impact of marketing and media activities on sales or other KPIs usually at an aggregate level. Can works on aggregation and use only statistical way. It can implement mid/long term analytics and use multi channel.
+
+# Optimize the Martech stack
+An optimized stack is the one that delivers more value, even if it has less tools than others.

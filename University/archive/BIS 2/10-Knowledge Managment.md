@@ -81,6 +81,51 @@ Make sure that the knowledge never leave the company, if someone is going to ret
 ![](https://i.imgur.com/3vR3cyx.png)
 
 These methodologies are not exclusive, you should use them at the same time.
+### KM Technocratic Strategies: capturing knowledge
+Strong reliance on the adoption of information and management technology
+Capturing knowledge and make it available to other people in the firm
+- E.g., knowledge networks (post-reply mechanisms for problem solving)
+- Insurance companies: formalize techniques and algorithms for risk assessment and make them available to others (e.g., new employees)
+- Generally: project documentation sharing
+CSFs
+- Connecting people
+- Incentives for providing content to systems
+- Content validation (cultivate good content and discard useless contributions)
+Focuses on making knowledge known through technological means. An example is knowledge networks(portals, forums,...)
+There is a knowledge portal with different characteristics, contains all the information about the employee(only the one that they want to share about their projects). People will share their working knowledge only to an extent(outside the organization, as inside you should cooperate to make profit). 
+Sometimes sharing information/my work outside the company is good to let other people know how good you are and it is a way to make more connections and find better jobs. Core CRM should be enhanced by this technology. 
+### KM economic strategy
+Protecting and exploiting the knowledge assets of the firm to generate cash flow and revenue streams
+The perspective of managing knowledge as an asset
+- Patents
+- Copyrights
+- Non-disclosure agreements
+- Intellectual property management
+- Trade secrets
+- ...
+CSFs
+- Create specialized teams/division for managing knowledge assets
+- Identify the relevant knowledge that may generate revenue
+Try to exploit assets to make money, try to protect knowledge with patents(disclosing information to protect it). So this knowledge needs agreements to be used by someone else. If other companies are not asking you to use your patented knowledge the patent is useless, it is only a pubblication.
+NDAs are a contract that both sides sign and the part that receive the information is bound to not share it to the public, this can also be bilateral. The NDAs can be mild(get back what you received) or more aggressive one(ask absurd money back if there is a breach). 
+One of the issues of Trade Secrets is that when employees leave the company they could disclose your information to your competitors, so you make them sign NDAs but this is not 100% secure proof so you do not tell an employee more that they need to know and make each employee know only a part of the information they need, if the information is core information you share only with the owner or the heads of the company. This also applied to trust and value of an employee: if an employee stayed with the company for 10 years they will be valued more than one that can do the same thing but is in for only 3 years. 
+### KM behavioral strategies: communities of practice
+Communities of Practice (CoP): loosely knit teams of people that work on common issues and problems
+Give tools (organizational and IT-based) to CoP to support knowledge sharing and
+transfer
+- Large corporations: Create strong links between people with the same qualification within the organization (e.g., lawyers, sw developers, HR managers of different divisions)
+- Product development: create support to different people in the development of a new product (e.g., technical design, graphical design, marketing,...)
+CSFs
+- Identify relevant CoPs
+- Connecting people
+#### Creating a knowledge sharing culture
+Exploit the design of the company’s space and structures to create the antecedents of knowledge sharing (knowledge sharing culture) 
+- Shared spaces: water cooler, coffee makers, vending machines...
+- Open office spaces: remove the barriers among individuals
+CSFs
+- Design of useful knowledge spaces
+- Encourage and legitimize people in sharing knowledge
+There are shared space that can be another way of working(can work there) and these are the places where shared knowledge is built. Not everything can be shared, but this is also coherent with the hierarchical structure of the company. You can also use open spaces offices to increase the possibility of sharing knowledge. 
 # Knowledge management systems
 ## IT and Knowledge Management: KMS
 Knowledge Management Systems (KMS)
@@ -91,3 +136,53 @@ Every organizational IT-based system may adhere to the definition...
 ![](https://i.imgur.com/MWw09ea.png)
 
 You need to focus on decision, need to give automatically information about the context, user based philosophy. Everything can be a KMS as long as it can give information that are related to the context the user is.
+## How to assess the success of KM initiatives
+1. Project-oriented evaluation
+- Growth of the resources attached to KM problems (people, money,...)
+- Reach of KM initiatives (number of offices, divisions,...)
+- KM project survival
+- Surveying people
+2. KMS-oriented evaluation (IT-intensive KM)
+- Usage of KMS (number of accesses, retrieved documents, KB extension,...)
+- Reach of the electronic community (e.g., number of people)
+3. Efficiency and financial evaluation
+- Reduced cycle time, number of claims, ...
+- Improved customer satisfaction, satisfied phone calls,...
+- Evidence of financial benefits
+Generally, correlation between indicators in class 1 and 2
+Financial indicators (when available!) often remain uncorrelated with the others...
+## Open issue in IT & KM: the case of incentives
+IT-intensive KM often tends to fail, why?
+- Complex inter-organizational processes: Governance problems
+	Who is going to be accounted for costs of the KM initiative?
+	How to assess the benefits of the KM initiative?
+	Who is going to be accounted for the benefits?
+- Tendency to overestimate the power of IT tools for KM
+- ...
+- KMS often remain unused by intended users
+### Incentives for KMS usage
+External (extrinsic)
+- Prizes
+- Monetary rewards
+- Increased visibility
+- ...
+Internal (intrinsic)
+- Make System usage personally meaningful
+- Support self-realization of users (territoriality)
+
+![](https://i.imgur.com/JtSzb0y.png)
+
+Build the technology and then tell people to use this new functionality. To overcome the distrust in changing habits you can use incentives.
+There can be the problem that the incentives only bring in low quality content, people just publish and finding the good contributions is difficult. Lot of inputs and no outputs. For these systems to be successful people need to come download good knowledge, repeat this routine some times and then publish something that they think is useful. You should need to exploit the people's internal motivation to have something good and positive benefits from the platform. A theory called territoriality that was applied to knowledge where people wants to be recognized as experts so we are willing to share some knowledge to be recognized as experts in the topic as this can be useful for my career. 
+### The failure of external incentives
+The typical consequence of external incentives:
+- Increase the number of contributions
+- Decrease the quality of contributions
+Need for continuous adaptation of incentive schema
+- “Incentive alignment”
+Many examples
+- Siemens ShareNet
+- InfoSys KShop
+- Nasa
+- ...
+TO transfer tacit knowledge in someone else head it is required some time so the company need to create this time.
